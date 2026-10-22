@@ -1,0 +1,22 @@
+{
+  "schema_version": "ETHICS-SUPER-BINDING-1",
+  "build_id": "ETHICS-SUPER-FINAL-1",
+  "institution": "SPC",
+  "book_url": "",
+  "super_url": "",
+  "pflab_url": "",
+  "chapters": {
+    "CH01": {"reading_url":"","quiz_url":"","journal_url":"","logical":{"chapter_id":"CH01","tool_id":"TOOL-CH01","quiz_id":"QZ-CH01","workbook_id":"WB-CH01","output_card_id":"OC-CH01","journal_id":"JRN-CH01"}},
+    "CH02": {"reading_url":"","quiz_url":"","journal_url":"","logical":{"chapter_id":"CH02","tool_id":"TOOL-CH02","quiz_id":"QZ-CH02","workbook_id":"WB-CH02","output_card_id":"OC-CH02","journal_id":"JRN-CH02"}},
+    "CH03": {"reading_url":"","quiz_url":"","journal_url":"","logical":{"chapter_id":"CH03","tool_id":"TOOL-CH03","quiz_id":"QZ-CH03","workbook_id":"WB-CH03","output_card_id":"OC-CH03","journal_id":"JRN-CH03"}},
+    "CH04": {"reading_url":"","quiz_url":"","journal_url":"","logical":{"chapter_id":"CH04","tool_id":"TOOL-CH04","quiz_id":"QZ-CH04","workbook_id":"WB-CH04","output_card_id":"OC-CH04","journal_id":"JRN-CH04"}},
+    "CH05": {"reading_url":"","quiz_url":"","journal_url":"","logical":{"chapter_id":"CH05","tool_id":"TOOL-CH05","quiz_id":"QZ-CH05","workbook_id":"WB-CH05","output_card_id":"OC-CH05","journal_id":"JRN-CH05"}},
+    "CH06": {"reading_url":"","quiz_url":"","journal_url":"","logical":{"chapter_id":"CH06","tool_id":"TOOL-CH06","quiz_id":"QZ-CH06","workbook_id":"WB-CH06","output_card_id":"OC-CH06","journal_id":"JRN-CH06"}},
+    "CH07": {"reading_url":"","quiz_url":"","journal_url":"","logical":{"chapter_id":"CH07","tool_id":"TOOL-CH07","quiz_id":"QZ-CH07","workbook_id":"WB-CH07","output_card_id":"OC-CH07","journal_id":"JRN-CH07"}},
+    "CH08": {"reading_url":"","quiz_url":"","journal_url":"","logical":{"chapter_id":"CH08","tool_id":"TOOL-CH08","quiz_id":"QZ-CH08","workbook_id":"WB-CH08","output_card_id":"OC-CH08","journal_id":"JRN-CH08"}},
+    "CH09": {"reading_url":"","quiz_url":"","journal_url":"","logical":{"chapter_id":"CH09","tool_id":"TOOL-CH09","quiz_id":"QZ-CH09","workbook_id":"WB-CH09","output_card_id":"OC-CH09","journal_id":"JRN-CH09"}},
+    "CH10": {"reading_url":"","quiz_url":"","journal_url":"","logical":{"chapter_id":"CH10","tool_id":"TOOL-CH10","quiz_id":"QZ-CH10","workbook_id":"WB-CH10","output_card_id":"OC-CH10","journal_id":"JRN-CH10"}},
+    "CH11": {"reading_url":"","quiz_url":"","journal_url":"","logical":{"chapter_id":"CH11","tool_id":"TOOL-CH11","quiz_id":"QZ-CH11","workbook_id":"WB-CH11","output_card_id":"OC-CH11","journal_id":"JRN-CH11"}},
+    "CH12": {"reading_url":"","quiz_url":"","journal_url":"","logical":{"chapter_id":"CH12","tool_id":"TOOL-CH12","quiz_id":"QZ-CH12","workbook_id":"WB-CH12","output_card_id":"OC-CH12","journal_id":"JRN-CH12"}}
+  }
+}
