@@ -1,0 +1,469 @@
+{
+  "schema": "ETHICS-ROUTING-FINAL-1",
+  "institution": "HCC",
+  "orchestrator": "Canvas",
+  "architecture_status": "FROZEN",
+  "production_super_url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html",
+  "production_pflab_url": "https://bobphil.github.io/ethics-power-flourishing-lab/ETHICS-PFLAB-INTEGRATION-1.html",
+  "module_sequence": [
+    "READ",
+    "QUIZ",
+    "WORKBOOK",
+    "JOURNAL"
+  ],
+  "chapters": [
+    {
+      "chapter_id": "CH01",
+      "title": "Before Ethics Had Theories",
+      "module_items": [
+        {
+          "order": 1,
+          "role": "READ",
+          "platform": "Pressbooks",
+          "binding": "external reading item bound in Canvas",
+          "hard_coupling": false
+        },
+        {
+          "order": 2,
+          "role": "QUIZ",
+          "platform": "Canvas New Quizzes",
+          "logical_id": "QZ-CH01",
+          "binding": "native Canvas object",
+          "hard_coupling": false
+        },
+        {
+          "order": 3,
+          "role": "WORKBOOK",
+          "platform": "SUPER",
+          "logical_id": "WB-CH01",
+          "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH01&view=workbook",
+          "hard_coupling": false
+        },
+        {
+          "order": 4,
+          "role": "JOURNAL",
+          "platform": "Canvas",
+          "logical_id": "JRN-CH01",
+          "binding": "native Canvas object",
+          "hard_coupling": false
+        }
+      ]
+    },
+    {
+      "chapter_id": "CH02",
+      "title": "Socrates and Plato",
+      "module_items": [
+        {
+          "order": 1,
+          "role": "READ",
+          "platform": "Pressbooks",
+          "binding": "external reading item bound in Canvas",
+          "hard_coupling": false
+        },
+        {
+          "order": 2,
+          "role": "QUIZ",
+          "platform": "Canvas New Quizzes",
+          "logical_id": "QZ-CH02",
+          "binding": "native Canvas object",
+          "hard_coupling": false
+        },
+        {
+          "order": 3,
+          "role": "WORKBOOK",
+          "platform": "SUPER",
+          "logical_id": "WB-CH02",
+          "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH02&view=workbook",
+          "hard_coupling": false
+        },
+        {
+          "order": 4,
+          "role": "JOURNAL",
+          "platform": "Canvas",
+          "logical_id": "JRN-CH02",
+          "binding": "native Canvas object",
+          "hard_coupling": false
+        }
+      ]
+    },
+    {
+      "chapter_id": "CH03",
+      "title": "Aristotle",
+      "module_items": [
+        {
+          "order": 1,
+          "role": "READ",
+          "platform": "Pressbooks",
+          "binding": "external reading item bound in Canvas",
+          "hard_coupling": false
+        },
+        {
+          "order": 2,
+          "role": "QUIZ",
+          "platform": "Canvas New Quizzes",
+          "logical_id": "QZ-CH03",
+          "binding": "native Canvas object",
+          "hard_coupling": false
+        },
+        {
+          "order": 3,
+          "role": "WORKBOOK",
+          "platform": "SUPER",
+          "logical_id": "WB-CH03",
+          "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH03&view=workbook",
+          "hard_coupling": false
+        },
+        {
+          "order": 4,
+          "role": "JOURNAL",
+          "platform": "Canvas",
+          "logical_id": "JRN-CH03",
+          "binding": "native Canvas object",
+          "hard_coupling": false
+        }
+      ]
+    },
+    {
+      "chapter_id": "CH04",
+      "title": "What Can Fortune Take From You?",
+      "module_items": [
+        {
+          "order": 1,
+          "role": "READ",
+          "platform": "Pressbooks",
+          "binding": "external reading item bound in Canvas",
+          "hard_coupling": false
+        },
+        {
+          "order": 2,
+          "role": "QUIZ",
+          "platform": "Canvas New Quizzes",
+          "logical_id": "QZ-CH04",
+          "binding": "native Canvas object",
+          "hard_coupling": false
+        },
+        {
+          "order": 3,
+          "role": "WORKBOOK",
+          "platform": "SUPER",
+          "logical_id": "WB-CH04",
+          "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH04&view=workbook",
+          "hard_coupling": false
+        },
+        {
+          "order": 4,
+          "role": "JOURNAL",
+          "platform": "Canvas",
+          "logical_id": "JRN-CH04",
+          "binding": "native Canvas object",
+          "hard_coupling": false
+        }
+      ]
+    },
+    {
+      "chapter_id": "CH05",
+      "title": "What Makes Law More Than Command?",
+      "module_items": [
+        {
+          "order": 1,
+          "role": "READ",
+          "platform": "Pressbooks",
+          "binding": "external reading item bound in Canvas",
+          "hard_coupling": false
+        },
+        {
+          "order": 2,
+          "role": "QUIZ",
+          "platform": "Canvas New Quizzes",
+          "logical_id": "QZ-CH05",
+          "binding": "native Canvas object",
+          "hard_coupling": false
+        },
+        {
+          "order": 3,
+          "role": "WORKBOOK",
+          "platform": "SUPER",
+          "logical_id": "WB-CH05",
+          "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH05&view=workbook",
+          "hard_coupling": false
+        },
+        {
+          "order": 4,
+          "role": "JOURNAL",
+          "platform": "Canvas",
+          "logical_id": "JRN-CH05",
+          "binding": "native Canvas object",
+          "hard_coupling": false
+        }
+      ]
+    },
+    {
+      "chapter_id": "CH06",
+      "title": "Why Obey?",
+      "module_items": [
+        {
+          "order": 1,
+          "role": "READ",
+          "platform": "Pressbooks",
+          "binding": "external reading item bound in Canvas",
+          "hard_coupling": false
+        },
+        {
+          "order": 2,
+          "role": "QUIZ",
+          "platform": "Canvas New Quizzes",
+          "logical_id": "QZ-CH06",
+          "binding": "native Canvas object",
+          "hard_coupling": false
+        },
+        {
+          "order": 3,
+          "role": "WORKBOOK",
+          "platform": "SUPER",
+          "logical_id": "WB-CH06",
+          "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH06&view=workbook",
+          "hard_coupling": false
+        },
+        {
+          "order": 4,
+          "role": "JOURNAL",
+          "platform": "Canvas",
+          "logical_id": "JRN-CH06",
+          "binding": "native Canvas object",
+          "hard_coupling": false
+        }
+      ]
+    },
+    {
+      "chapter_id": "CH07",
+      "title": "How Do We Come to Care?",
+      "module_items": [
+        {
+          "order": 1,
+          "role": "READ",
+          "platform": "Pressbooks",
+          "binding": "external reading item bound in Canvas",
+          "hard_coupling": false
+        },
+        {
+          "order": 2,
+          "role": "QUIZ",
+          "platform": "Canvas New Quizzes",
+          "logical_id": "QZ-CH07",
+          "binding": "native Canvas object",
+          "hard_coupling": false
+        },
+        {
+          "order": 3,
+          "role": "WORKBOOK",
+          "platform": "SUPER",
+          "logical_id": "WB-CH07",
+          "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH07&view=workbook",
+          "hard_coupling": false
+        },
+        {
+          "order": 4,
+          "role": "JOURNAL",
+          "platform": "Canvas",
+          "logical_id": "JRN-CH07",
+          "binding": "native Canvas object",
+          "hard_coupling": false
+        }
+      ]
+    },
+    {
+      "chapter_id": "CH08",
+      "title": "What Do We Owe Persons When Sympathy Is Not Enough?",
+      "module_items": [
+        {
+          "order": 1,
+          "role": "READ",
+          "platform": "Pressbooks",
+          "binding": "external reading item bound in Canvas",
+          "hard_coupling": false
+        },
+        {
+          "order": 2,
+          "role": "QUIZ",
+          "platform": "Canvas New Quizzes",
+          "logical_id": "QZ-CH08",
+          "binding": "native Canvas object",
+          "hard_coupling": false
+        },
+        {
+          "order": 3,
+          "role": "WORKBOOK",
+          "platform": "SUPER",
+          "logical_id": "WB-CH08",
+          "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH08&view=workbook",
+          "hard_coupling": false
+        },
+        {
+          "order": 4,
+          "role": "JOURNAL",
+          "platform": "Canvas",
+          "logical_id": "JRN-CH08",
+          "binding": "native Canvas object",
+          "hard_coupling": false
+        }
+      ]
+    },
+    {
+      "chapter_id": "CH09",
+      "title": "What Happens to Everyone Affected?",
+      "module_items": [
+        {
+          "order": 1,
+          "role": "READ",
+          "platform": "Pressbooks",
+          "binding": "external reading item bound in Canvas",
+          "hard_coupling": false
+        },
+        {
+          "order": 2,
+          "role": "QUIZ",
+          "platform": "Canvas New Quizzes",
+          "logical_id": "QZ-CH09",
+          "binding": "native Canvas object",
+          "hard_coupling": false
+        },
+        {
+          "order": 3,
+          "role": "WORKBOOK",
+          "platform": "SUPER",
+          "logical_id": "WB-CH09",
+          "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH09&view=workbook",
+          "hard_coupling": false
+        },
+        {
+          "order": 4,
+          "role": "JOURNAL",
+          "platform": "Canvas",
+          "logical_id": "JRN-CH09",
+          "binding": "native Canvas object",
+          "hard_coupling": false
+        }
+      ]
+    },
+    {
+      "chapter_id": "CH10",
+      "title": "What Is Shaping the Choice Before You Choose?",
+      "module_items": [
+        {
+          "order": 1,
+          "role": "READ",
+          "platform": "Pressbooks",
+          "binding": "external reading item bound in Canvas",
+          "hard_coupling": false
+        },
+        {
+          "order": 2,
+          "role": "QUIZ",
+          "platform": "Canvas New Quizzes",
+          "logical_id": "QZ-CH10",
+          "binding": "native Canvas object",
+          "hard_coupling": false
+        },
+        {
+          "order": 3,
+          "role": "WORKBOOK",
+          "platform": "SUPER",
+          "logical_id": "WB-CH10",
+          "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH10&view=workbook",
+          "hard_coupling": false
+        },
+        {
+          "order": 4,
+          "role": "JOURNAL",
+          "platform": "Canvas",
+          "logical_id": "JRN-CH10",
+          "binding": "native Canvas object",
+          "hard_coupling": false
+        }
+      ]
+    },
+    {
+      "chapter_id": "CH11",
+      "title": "Would You Choose the Rules Before Knowing Your Place?",
+      "module_items": [
+        {
+          "order": 1,
+          "role": "READ",
+          "platform": "Pressbooks",
+          "binding": "external reading item bound in Canvas",
+          "hard_coupling": false
+        },
+        {
+          "order": 2,
+          "role": "QUIZ",
+          "platform": "Canvas New Quizzes",
+          "logical_id": "QZ-CH11",
+          "binding": "native Canvas object",
+          "hard_coupling": false
+        },
+        {
+          "order": 3,
+          "role": "WORKBOOK",
+          "platform": "SUPER",
+          "logical_id": "WB-CH11",
+          "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH11&view=workbook",
+          "hard_coupling": false
+        },
+        {
+          "order": 4,
+          "role": "JOURNAL",
+          "platform": "Canvas",
+          "logical_id": "JRN-CH11",
+          "binding": "native Canvas object",
+          "hard_coupling": false
+        }
+      ]
+    },
+    {
+      "chapter_id": "CH12",
+      "title": "What Are People Actually Able to Do and Be?",
+      "module_items": [
+        {
+          "order": 1,
+          "role": "READ",
+          "platform": "Pressbooks",
+          "binding": "external reading item bound in Canvas",
+          "hard_coupling": false
+        },
+        {
+          "order": 2,
+          "role": "QUIZ",
+          "platform": "Canvas New Quizzes",
+          "logical_id": "QZ-CH12",
+          "binding": "native Canvas object",
+          "hard_coupling": false
+        },
+        {
+          "order": 3,
+          "role": "WORKBOOK",
+          "platform": "SUPER",
+          "logical_id": "WB-CH12",
+          "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH12&view=workbook",
+          "hard_coupling": false
+        },
+        {
+          "order": 4,
+          "role": "JOURNAL",
+          "platform": "Canvas",
+          "logical_id": "JRN-CH12",
+          "binding": "native Canvas object",
+          "hard_coupling": false
+        }
+      ]
+    }
+  ],
+  "final_route": {
+    "canvas_item": "SUPER PFLAB Gate",
+    "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH12&view=pflab",
+    "gate_owner": "SUPER",
+    "launch_target": "https://bobphil.github.io/ethics-power-flourishing-lab/ETHICS-PFLAB-INTEGRATION-1.html",
+    "condition": "all 12 chapters READY",
+    "handoff_schema": "ETHICS-PFLAB-HANDOFF-1",
+    "direct_canvas_to_pflab_substitution_allowed": false
+  }
+}
