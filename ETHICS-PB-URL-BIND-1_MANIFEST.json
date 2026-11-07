@@ -15,7 +15,8 @@
         "CH04 user-captured live URL: /chapter/what-can-fortune-take-from-you/",
         "CH06 user-captured live URL: /chapter/why-obey/",
         "CH05 user-captured live URL: /chapter/what-makes-law-more-than-command/",
-        "CH07 user-captured live URL: /chapter/how-do-we-come-to-care/"
+        "CH07 user-captured live URL: /chapter/how-do-we-come-to-care/",
+        "CH08 user-captured live URL: /chapter/what-do-we-owe-persons-when-sympathy-is-not-enough/"
       ],
       "rule": "Do not extrapolate chapter slugs from numbering or titles. Each chapter URL must be captured individually."
     }
@@ -455,10 +456,10 @@
       "title": "What Do We Owe Persons When Sympathy Is Not Enough?",
       "sequence": 8,
       "pressbooks": {
-        "candidate_slug": null,
-        "candidate_chapter_url": null,
-        "verified_chapter_url": null,
-        "chapter_url_status": "PENDING_INDIVIDUAL_LIVE_CAPTURE"
+        "candidate_slug": "what-do-we-owe-persons-when-sympathy-is-not-enough",
+        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/what-do-we-owe-persons-when-sympathy-is-not-enough/",
+        "verified_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/what-do-we-owe-persons-when-sympathy-is-not-enough/",
+        "chapter_url_status": "VERIFIED_USER_CAPTURE"
       },
       "workbook": {
         "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH08&view=workbook",
@@ -507,8 +508,8 @@
         }
       ],
       "return_to_chapter": {
-        "verified_url": null,
-        "status": "PENDING_LIVE_VERIFICATION",
+        "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/what-do-we-owe-persons-when-sympathy-is-not-enough/",
+        "status": "VERIFIED_USER_CAPTURE",
         "exposure_rule": "Use verified_chapter_url only; do not promote candidate_chapter_url automatically."
       },
       "quiz_id": "QZ-CH08",
