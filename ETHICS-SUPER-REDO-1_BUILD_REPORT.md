@@ -79,7 +79,9 @@ Human browser validation has now confirmed:
 
 Still pending browser certification:
 
-- recovery export/import;
+- recovery export/import — **PASS**;
 - PFLAB lock behavior when fewer than 12 chapters are READY;
 - PFLAB-2 launch when 12/12 are READY;
 - narrow/mobile layout and keyboard-focus pass.
+
+- Recovery export/import preserves saved workbook content, chapter status, and normal navigation — **PASS**
