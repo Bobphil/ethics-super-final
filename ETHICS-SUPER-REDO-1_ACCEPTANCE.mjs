@@ -18,6 +18,7 @@ check("12 routing chapters",routing.chapters.length===12);
 check("12 verified Pressbooks returns",routing.chapters.every(c=>!!c.pressbooks.verified_chapter_url&&c.return_to_chapter.verified_url===c.pressbooks.verified_chapter_url));
 check("45 targeted readings",routing.chapters.reduce((n,c)=>n+c.targeted_readings.length,0)===45);
 check("targets use verified chapter + label",routing.chapters.every(c=>c.targeted_readings.every(r=>r.verified_url===c.pressbooks.verified_chapter_url&&!!r.heading)));
+check("single chapter-link targeted-reading UX",app.includes("Open Pressbooks chapter")&&app.includes("Read section:")&&!app.includes("Open chapter —"));
 check("all workbook routes point to redo",routing.chapters.every(c=>c.workbook.url.includes("ETHICS-SUPER-REDO-1.html#chapter="+c.id+"&view=workbook")));
 check("legacy FINAL-1 compatibility redirect",redirect.includes("ETHICS-SUPER-REDO-1.html'+location.hash"));
 check("local persistence migration",app.includes("LEGACY_APP_KEY")&&app.includes("migrated_from"));
