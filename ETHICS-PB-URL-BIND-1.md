@@ -1,67 +1,51 @@
 # ETHICS-PB-URL-BIND-1
 
-## Twelve-Chapter Live URL and Section-Anchor Capture, Pressbooks→SUPER Workbook Binding, SUPER→Pressbooks Targeted-Reading Return Routes, and Round-Trip Regression
+## Twelve-Chapter Live URL Capture, Pressbooks→SUPER Workbook Binding, SUPER→Pressbooks Targeted-Reading Return Routes, and Round-Trip Regression
 
-### Status
+### Final routing decision
 
-**ROUTING ARCHITECTURE BUILT / LIVE PRESSBOOKS CAPTURE PARTIALLY BLOCKED BY PRIVATE BOOK**
+Pressbooks does not expose a distinct browser URL when moving among the targeted sections within Chapter 1. We therefore do **not** manufacture or assume section fragments.
 
-The Ethics Pressbook is assembled, but it remains private during production. The external build process therefore cannot truthfully certify Pressbooks' generated live chapter URLs or the HTML `id` values attached to section headings.
+Targeted reading is implemented as:
 
-This build separates three states:
+**verified chapter URL + exact target section label**
 
-1. **candidate** — a predictable Pressbooks slug derived from the title;
-2. **captured** — an actual URL or heading fragment observed in the live Pressbooks page;
-3. **verified** — a captured route that has passed the round-trip regression.
+For example:
 
-Only **verified** routes may be exposed as active SUPER return or targeted-reading links.
+**Open Chapter 1 — read the section “Ethical attention.”**
 
-## Routing model
+This preserves the instructional target without creating brittle or fictional anchors.
+
+### Certified routing model
 
 For every chapter:
 
-**Pressbooks chapter → SUPER workbook → targeted Pressbooks section → SUPER workbook → full Pressbooks chapter**
-
-Canvas continues to own Quiz and Personal Ethics Journal routing.
+**Pressbooks chapter → SUPER workbook → verified Pressbooks chapter + target heading label → SUPER workbook → full Pressbooks chapter**
 
 Chapter 12 additionally preserves:
 
 **CH12 SUPER → governed PFLAB gate → PFLAB**
 
-## Already active
+Canvas continues to own Quiz and Personal Ethics Journal routing.
 
-The Pressbooks chapter-end workbook links use the stable SUPER pattern:
+### Capture status
 
-`https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CHxx&view=workbook`
+- 12/12 chapter URLs verified.
+- 45/45 targeted-reading records mapped to verified chapter URLs.
+- 45/45 targeted-reading heading labels preserved.
+- Section anchors are optional and intentionally null.
+- No active route claims a direct section fragment.
 
-Those links were tested successfully during the Pressbooks loading pass.
+### Production firewalls
 
-## Still requiring live capture
+**Heading label ≠ direct anchor.**
 
-For Chapters 1–12:
+**Verified chapter route + exact heading label = valid targeted-reading route.**
 
-- canonical live Pressbooks chapter URL;
-- actual live heading fragment for every targeted reading;
-- full-chapter return URL.
+**Do not invent HTML fragments.**
 
-Candidate chapter slugs are stored only as capture aids.
+### Relationship to ETHICS-SUPER-REDO-1
 
-## Production firewalls
+The SUPER redo should render each targeted reading as an active chapter link accompanied by the exact target section heading. It should not attempt to fabricate a fragment identifier.
 
-**Candidate slug ≠ verified live URL.**
-
-**Heading text ≠ verified HTML anchor.**
-
-**Verified chapter URL ≠ verified section anchor.**
-
-The SUPER redo must consume only `verified_url` values for active targeted-reading links.
-
-## Transition A
-
-Transition A is represented separately as a historical transition and possible supporting reading for the legitimacy sequence. It is not a thirteenth workbook.
-
-## Relationship to ETHICS-SUPER-REDO-1
-
-This manifest becomes the routing source of truth for the SUPER redo. The redo should not hand-code Pressbooks targets independently.
-
-**ONE BINDING MANIFEST → TWELVE WORKBOOKS → VERIFIED ROUND TRIPS**
+**ONE BINDING MANIFEST → TWELVE WORKBOOKS → FORTY-FIVE TARGETED READINGS → VERIFIED ROUND TRIPS**

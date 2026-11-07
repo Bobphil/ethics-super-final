@@ -3,8 +3,8 @@
   "build_id": "ETHICS-PB-URL-BIND-1",
   "pressbooks": {
     "base_url": "https://pressbooks.pub/ethicalhistory/",
-    "access_state": "PRIVATE_DURING_CAPTURE_BUILD",
-    "live_verification_state": "BLOCKED_BY_PRIVATE_BOOK",
+    "access_state": "PUBLIC_FOR_CAPTURE_COMPLETE",
+    "live_verification_state": "CHAPTER_ROUTES_VERIFIED_SECTION_ANCHORS_NOT_REQUIRED",
     "rule": "Candidate slugs may be stored, but no chapter URL or section anchor becomes production-active until verified against the live Pressbooks page.",
     "slug_pattern_evidence": {
       "status": "MIXED_PATTERN_CONFIRMED",
@@ -24,7 +24,14 @@
       ],
       "rule": "Do not extrapolate chapter slugs from numbering or titles. Each chapter URL must be captured individually."
     },
-    "chapter_capture_status": "COMPLETE_12_OF_12"
+    "chapter_capture_status": "COMPLETE_12_OF_12",
+    "section_anchor_policy": {
+      "status": "ANCHORS_NOT_REQUIRED",
+      "evidence": "User verified in Chapter 1 that the browser URL does not change among targeted sections.",
+      "rule": "Targeted reading is implemented as verified chapter URL + exact section heading label. Section fragment is optional and may remain null.",
+      "regression_rule": "A targeted reading passes if its chapter URL is verified and its heading label is present; direct fragment URLs are not required."
+    },
+    "targeted_reading_capture_status": "COMPLETE_45_OF_45_BY_CHAPTER_ROUTE_PLUS_LABEL"
   },
   "super": {
     "canonical_url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html",
@@ -52,9 +59,10 @@
           "purpose": "Revisit the chapter's account of what ethical attention asks us to notice.",
           "candidate_anchor": null,
           "verified_anchor": null,
-          "verified_url": null,
-          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
-          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/chapter-1/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
         },
         {
           "id": "CH01-R02",
@@ -62,9 +70,10 @@
           "purpose": "Revisit why incomplete information need not make responsible judgment impossible.",
           "candidate_anchor": null,
           "verified_anchor": null,
-          "verified_url": null,
-          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
-          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/chapter-1/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
         },
         {
           "id": "CH01-R03",
@@ -72,9 +81,10 @@
           "purpose": "Return to the canonical Tool definition used by the workbook.",
           "candidate_anchor": null,
           "verified_anchor": null,
-          "verified_url": null,
-          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
-          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/chapter-1/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
         }
       ],
       "return_to_chapter": {
@@ -107,9 +117,10 @@
           "purpose": "Recover the Euthyphro pressure on authority and justification.",
           "candidate_anchor": null,
           "verified_anchor": null,
-          "verified_url": null,
-          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
-          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/socrates-and-plato/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
         },
         {
           "id": "CH02-R02",
@@ -117,9 +128,10 @@
           "purpose": "Revisit the limits of examination before applying the Direction-of-Justification test.",
           "candidate_anchor": null,
           "verified_anchor": null,
-          "verified_url": null,
-          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
-          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/socrates-and-plato/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
         },
         {
           "id": "CH02-R03",
@@ -127,9 +139,10 @@
           "purpose": "Return to the canonical Tool definition used by the workbook.",
           "candidate_anchor": null,
           "verified_anchor": null,
-          "verified_url": null,
-          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
-          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/socrates-and-plato/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
         }
       ],
       "return_to_chapter": {
@@ -162,9 +175,10 @@
           "purpose": "Recover the formation/habituation background for the Challenger case.",
           "candidate_anchor": null,
           "verified_anchor": null,
-          "verified_url": null,
-          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
-          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/aristotle/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
         },
         {
           "id": "CH03-R02",
@@ -172,9 +186,10 @@
           "purpose": "Revisit practical wisdom before judging action under institutional pressure.",
           "candidate_anchor": null,
           "verified_anchor": null,
-          "verified_url": null,
-          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
-          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/aristotle/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
         },
         {
           "id": "CH03-R03",
@@ -182,9 +197,10 @@
           "purpose": "Return to the canonical Tool definition used by the workbook.",
           "candidate_anchor": null,
           "verified_anchor": null,
-          "verified_url": null,
-          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
-          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/aristotle/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
         }
       ],
       "return_to_chapter": {
@@ -217,9 +233,10 @@
           "purpose": "Recover the Stoic distinction between what happens and the response we authorize.",
           "candidate_anchor": null,
           "verified_anchor": null,
-          "verified_url": null,
-          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
-          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/what-can-fortune-take-from-you/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
         },
         {
           "id": "CH04-R02",
@@ -227,9 +244,10 @@
           "purpose": "Revisit the control boundary before working the Hanna case.",
           "candidate_anchor": null,
           "verified_anchor": null,
-          "verified_url": null,
-          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
-          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/what-can-fortune-take-from-you/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
         },
         {
           "id": "CH04-R03",
@@ -237,9 +255,10 @@
           "purpose": "Revisit moral range so control is not confused with importance.",
           "candidate_anchor": null,
           "verified_anchor": null,
-          "verified_url": null,
-          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
-          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/what-can-fortune-take-from-you/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
         },
         {
           "id": "CH04-R04",
@@ -247,9 +266,10 @@
           "purpose": "Return to the canonical Tool definition used by the workbook.",
           "candidate_anchor": null,
           "verified_anchor": null,
-          "verified_url": null,
-          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
-          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/what-can-fortune-take-from-you/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
         }
       ],
       "return_to_chapter": {
@@ -282,9 +302,10 @@
           "purpose": "Recover the account of law, reason, authority, and common good.",
           "candidate_anchor": null,
           "verified_anchor": null,
-          "verified_url": null,
-          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
-          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/what-makes-law-more-than-command/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
         },
         {
           "id": "CH05-R02",
@@ -292,9 +313,10 @@
           "purpose": "Revisit the burden of showing that a rule genuinely serves a common good.",
           "candidate_anchor": null,
           "verified_anchor": null,
-          "verified_url": null,
-          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
-          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/what-makes-law-more-than-command/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
         },
         {
           "id": "CH05-R03",
@@ -302,9 +324,10 @@
           "purpose": "Revisit why moral criticism of a rule does not settle every response to it.",
           "candidate_anchor": null,
           "verified_anchor": null,
-          "verified_url": null,
-          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
-          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/what-makes-law-more-than-command/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
         },
         {
           "id": "CH05-R04",
@@ -312,9 +335,10 @@
           "purpose": "Return to the canonical Tool definition used by the workbook.",
           "candidate_anchor": null,
           "verified_anchor": null,
-          "verified_url": null,
-          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
-          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/what-makes-law-more-than-command/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
         }
       ],
       "return_to_chapter": {
@@ -347,9 +371,10 @@
           "purpose": "Recover the coordination/security problem.",
           "candidate_anchor": null,
           "verified_anchor": null,
-          "verified_url": null,
-          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
-          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/why-obey/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
         },
         {
           "id": "CH06-R02",
@@ -357,9 +382,10 @@
           "purpose": "Revisit limits on authority and residual standing.",
           "candidate_anchor": null,
           "verified_anchor": null,
-          "verified_url": null,
-          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
-          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/why-obey/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
         },
         {
           "id": "CH06-R03",
@@ -367,9 +393,10 @@
           "purpose": "Revisit membership, authorship, and political standing.",
           "candidate_anchor": null,
           "verified_anchor": null,
-          "verified_url": null,
-          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
-          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/why-obey/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
         },
         {
           "id": "CH06-R04",
@@ -377,9 +404,10 @@
           "purpose": "Return to the canonical Tool definition used by the workbook.",
           "candidate_anchor": null,
           "verified_anchor": null,
-          "verified_url": null,
-          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
-          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/why-obey/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
         }
       ],
       "return_to_chapter": {
@@ -412,9 +440,10 @@
           "purpose": "Recover Hume's relation between reason, motivation, and moral response.",
           "candidate_anchor": null,
           "verified_anchor": null,
-          "verified_url": null,
-          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
-          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/how-do-we-come-to-care/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
         },
         {
           "id": "CH07-R02",
@@ -422,9 +451,10 @@
           "purpose": "Revisit perspective-taking without treating sympathy as direct access.",
           "candidate_anchor": null,
           "verified_anchor": null,
-          "verified_url": null,
-          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
-          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/how-do-we-come-to-care/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
         },
         {
           "id": "CH07-R03",
@@ -432,9 +462,10 @@
           "purpose": "Recover the standpoint correction that supports the workbook's visibility audit.",
           "candidate_anchor": null,
           "verified_anchor": null,
-          "verified_url": null,
-          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
-          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/how-do-we-come-to-care/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
         },
         {
           "id": "CH07-R04",
@@ -442,9 +473,10 @@
           "purpose": "Return to the canonical Tool definition used by the workbook.",
           "candidate_anchor": null,
           "verified_anchor": null,
-          "verified_url": null,
-          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
-          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/how-do-we-come-to-care/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
         }
       ],
       "return_to_chapter": {
@@ -477,9 +509,10 @@
           "purpose": "Revisit the universalization pressure on the principle of action.",
           "candidate_anchor": null,
           "verified_anchor": null,
-          "verified_url": null,
-          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
-          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/what-do-we-owe-persons-when-sympathy-is-not-enough/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
         },
         {
           "id": "CH08-R02",
@@ -487,9 +520,10 @@
           "purpose": "Recover the standing of persons as agents rather than merely objects of management.",
           "candidate_anchor": null,
           "verified_anchor": null,
-          "verified_url": null,
-          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
-          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/what-do-we-owe-persons-when-sympathy-is-not-enough/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
         },
         {
           "id": "CH08-R03",
@@ -497,9 +531,10 @@
           "purpose": "Revisit autonomy before the Leila information-control case.",
           "candidate_anchor": null,
           "verified_anchor": null,
-          "verified_url": null,
-          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
-          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/what-do-we-owe-persons-when-sympathy-is-not-enough/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
         },
         {
           "id": "CH08-R04",
@@ -507,9 +542,10 @@
           "purpose": "Return to the canonical Tool definition used by the workbook.",
           "candidate_anchor": null,
           "verified_anchor": null,
-          "verified_url": null,
-          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
-          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/what-do-we-owe-persons-when-sympathy-is-not-enough/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
         }
       ],
       "return_to_chapter": {
@@ -542,9 +578,10 @@
           "purpose": "Recover the aggregation and public-consequence frame.",
           "candidate_anchor": null,
           "verified_anchor": null,
-          "verified_url": null,
-          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
-          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/what-happens-to-everyone-affected/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
         },
         {
           "id": "CH09-R02",
@@ -552,9 +589,10 @@
           "purpose": "Revisit uncertainty and the limits of predicted outcomes.",
           "candidate_anchor": null,
           "verified_anchor": null,
-          "verified_url": null,
-          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
-          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/what-happens-to-everyone-affected/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
         },
         {
           "id": "CH09-R03",
@@ -562,9 +600,10 @@
           "purpose": "Recover the liberty/coercion boundary before the workbook judgment.",
           "candidate_anchor": null,
           "verified_anchor": null,
-          "verified_url": null,
-          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
-          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/what-happens-to-everyone-affected/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
         },
         {
           "id": "CH09-R04",
@@ -572,9 +611,10 @@
           "purpose": "Return to the canonical Tool definition used by the workbook.",
           "candidate_anchor": null,
           "verified_anchor": null,
-          "verified_url": null,
-          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
-          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/what-happens-to-everyone-affected/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
         }
       ],
       "return_to_chapter": {
@@ -607,9 +647,10 @@
           "purpose": "Recover the distinction between formal choice and material dependence.",
           "candidate_anchor": null,
           "verified_anchor": null,
-          "verified_url": null,
-          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
-          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/what-is-shaping-the-choice-before-you-choose/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
         },
         {
           "id": "CH10-R02",
@@ -617,9 +658,10 @@
           "purpose": "Revisit the genealogy firewall: explaining origins does not by itself settle validity.",
           "candidate_anchor": null,
           "verified_anchor": null,
-          "verified_url": null,
-          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
-          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/what-is-shaping-the-choice-before-you-choose/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
         },
         {
           "id": "CH10-R03",
@@ -627,9 +669,10 @@
           "purpose": "Revisit value-formation diagnosis without collapsing diagnosis into verdict.",
           "candidate_anchor": null,
           "verified_anchor": null,
-          "verified_url": null,
-          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
-          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/what-is-shaping-the-choice-before-you-choose/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
         },
         {
           "id": "CH10-R04",
@@ -637,9 +680,10 @@
           "purpose": "Return to the canonical Tool definition used by the workbook.",
           "candidate_anchor": null,
           "verified_anchor": null,
-          "verified_url": null,
-          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
-          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/what-is-shaping-the-choice-before-you-choose/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
         }
       ],
       "return_to_chapter": {
@@ -672,9 +716,10 @@
           "purpose": "Recover the device of representation used to test fair terms.",
           "candidate_anchor": null,
           "verified_anchor": null,
-          "verified_url": null,
-          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
-          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/would-you-choose-the-rules-before-knowing-your-place/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
         },
         {
           "id": "CH11-R02",
@@ -682,9 +727,10 @@
           "purpose": "Revisit the difference between formal access and meaningful opportunity.",
           "candidate_anchor": null,
           "verified_anchor": null,
-          "verified_url": null,
-          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
-          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/would-you-choose-the-rules-before-knowing-your-place/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
         },
         {
           "id": "CH11-R03",
@@ -692,9 +738,10 @@
           "purpose": "Recover the distributional test without treating it as a simple maximize-the-worst-off rule.",
           "candidate_anchor": null,
           "verified_anchor": null,
-          "verified_url": null,
-          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
-          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/would-you-choose-the-rules-before-knowing-your-place/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
         },
         {
           "id": "CH11-R04",
@@ -702,9 +749,10 @@
           "purpose": "Return to the canonical Tool definition used by the workbook.",
           "candidate_anchor": null,
           "verified_anchor": null,
-          "verified_url": null,
-          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
-          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/would-you-choose-the-rules-before-knowing-your-place/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
         }
       ],
       "return_to_chapter": {
@@ -737,9 +785,10 @@
           "purpose": "Recover the chapter's starting point about dependency and agency.",
           "candidate_anchor": null,
           "verified_anchor": null,
-          "verified_url": null,
-          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
-          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/what-are-people-actually-able-to-do-and-be/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
         },
         {
           "id": "CH12-R02",
@@ -747,9 +796,10 @@
           "purpose": "Revisit conversion from resources to effective capability.",
           "candidate_anchor": null,
           "verified_anchor": null,
-          "verified_url": null,
-          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
-          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/what-are-people-actually-able-to-do-and-be/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
         },
         {
           "id": "CH12-R03",
@@ -757,9 +807,10 @@
           "purpose": "Recover the distinction between care relations and capability evaluation.",
           "candidate_anchor": null,
           "verified_anchor": null,
-          "verified_url": null,
-          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
-          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/what-are-people-actually-able-to-do-and-be/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
         },
         {
           "id": "CH12-R04",
@@ -767,9 +818,10 @@
           "purpose": "Return to the canonical Tool definition used by the workbook.",
           "candidate_anchor": null,
           "verified_anchor": null,
-          "verified_url": null,
-          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
-          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/what-are-people-actually-able-to-do-and-be/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
         }
       ],
       "return_to_chapter": {
@@ -813,7 +865,7 @@
   },
   "round_trip_contract": [
     "Pressbooks chapter → exact SUPER workbook deep link",
-    "SUPER workbook → verified targeted Pressbooks section",
+    "SUPER workbook → verified Pressbooks chapter with exact targeted-reading section label",
     "SUPER workbook → verified full Pressbooks chapter",
     "CH12 SUPER → governed PFLAB gate",
     "Canvas remains owner of Quiz and Personal Ethics Journal routing"
