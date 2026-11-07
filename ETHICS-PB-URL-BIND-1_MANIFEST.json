@@ -12,7 +12,8 @@
         "CH01 user-captured live URL: /chapter/chapter-1/",
         "CH02 user-captured live URL: /chapter/socrates-and-plato/",
         "CH03 user-captured live URL: /chapter/aristotle/",
-        "CH04 user-captured live URL: /chapter/what-can-fortune-take-from-you/"
+        "CH04 user-captured live URL: /chapter/what-can-fortune-take-from-you/",
+        "CH06 user-captured live URL: /chapter/why-obey/"
       ],
       "rule": "Do not extrapolate chapter slugs from numbering or titles. Each chapter URL must be captured individually."
     }
@@ -322,10 +323,10 @@
       "title": "Why Obey?",
       "sequence": 6,
       "pressbooks": {
-        "candidate_slug": null,
-        "candidate_chapter_url": null,
-        "verified_chapter_url": null,
-        "chapter_url_status": "PENDING_INDIVIDUAL_LIVE_CAPTURE"
+        "candidate_slug": "why-obey",
+        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/why-obey/",
+        "verified_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/why-obey/",
+        "chapter_url_status": "VERIFIED_USER_CAPTURE"
       },
       "workbook": {
         "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH06&view=workbook",
@@ -374,8 +375,8 @@
         }
       ],
       "return_to_chapter": {
-        "verified_url": null,
-        "status": "PENDING_LIVE_VERIFICATION",
+        "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/why-obey/",
+        "status": "VERIFIED_USER_CAPTURE",
         "exposure_rule": "Use verified_chapter_url only; do not promote candidate_chapter_url automatically."
       },
       "quiz_id": "QZ-CH06",
