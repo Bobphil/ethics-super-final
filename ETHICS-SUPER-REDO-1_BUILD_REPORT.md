@@ -64,3 +64,22 @@ Final course-ready certification still requires a human browser journey after Gi
 7. inspect narrow/mobile layout and keyboard focus.
 
 **Pressbooks-ready ≠ SUPER-ready ≠ course-ready.**
+
+## Browser acceptance ledger
+
+Human browser validation has now confirmed:
+
+- Legacy `ETHICS-SUPER-FINAL-1.html#chapter=CH04&view=workbook` redirect preserves the chapter/view hash — **PASS**
+- REDO initializes with active JavaScript and local browser storage — **PASS**
+- CH04 targeted-reading UX uses one Pressbooks chapter link plus exact section labels — **PASS**
+- CH04 workbook draft persists across save + browser reload — **PASS**
+- Reload preserves CH04 as the active chapter — **PASS**
+- CH08 routing isolation shows its own Kant/Respect/Autonomy targets and correct Pressbooks chapter — **PASS**
+- CH12 routing isolation shows its own Dependency/Capability targets and correct Pressbooks chapter — **PASS**
+
+Still pending browser certification:
+
+- recovery export/import;
+- PFLAB lock behavior when fewer than 12 chapters are READY;
+- PFLAB-2 launch when 12/12 are READY;
+- narrow/mobile layout and keyboard-focus pass.
