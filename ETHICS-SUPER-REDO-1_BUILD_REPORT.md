@@ -82,10 +82,12 @@ Still pending browser certification:
 - recovery export/import — **PASS**;
 - PFLAB lock behavior when fewer than 12 chapters are READY — **PASS**;
 - PFLAB-2 launch when 12/12 are READY — **PASS (handoff import/unlock)**;
-- narrow/mobile layout and keyboard-focus pass.
+- narrow/mobile layout and keyboard-focus pass — **PENDING**.
 
 - Recovery export/import preserves saved workbook content, chapter status, and normal navigation — **PASS**
 
 - PFLAB locked-state browser test: 1/12 READY and 1/12 Tool Record shown; LAB LOCKED displayed; grammar and firewalls present — **PASS**
 
 - PFLAB-2 accepted a REDO-1 handoff with 12 Tool Records and 12 Output Cards; displayed LAB UNLOCKED and correct PROD-3/source metadata — **PASS**
+
+- SUPER → PFLAB-2 launch path reached the live integrated lab and loaded the full Lab navigation/content — **PASS**
