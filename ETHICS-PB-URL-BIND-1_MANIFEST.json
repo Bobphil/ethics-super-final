@@ -5,7 +5,14 @@
     "base_url": "https://pressbooks.pub/ethicalhistory/",
     "access_state": "PRIVATE_DURING_CAPTURE_BUILD",
     "live_verification_state": "BLOCKED_BY_PRIVATE_BOOK",
-    "rule": "Candidate slugs may be stored, but no chapter URL or section anchor becomes production-active until verified against the live Pressbooks page."
+    "rule": "Candidate slugs may be stored, but no chapter URL or section anchor becomes production-active until verified against the live Pressbooks page.",
+    "slug_pattern_evidence": {
+      "status": "PARTIALLY_VERIFIED",
+      "evidence": "CH01 live public URL supplied from Pressbooks reader",
+      "observed_pattern": "/chapter/chapter-1/",
+      "candidate_rule_for_remaining": "/chapter/chapter-N/",
+      "rule": "Numbered pattern is a candidate convention only until each chapter URL is observed."
+    }
   },
   "super": {
     "canonical_url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html",
@@ -17,10 +24,10 @@
       "title": "Before Ethics Had Theories",
       "sequence": 1,
       "pressbooks": {
-        "candidate_slug": "before-ethics-had-theories",
-        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/before-ethics-had-theories/",
-        "verified_chapter_url": null,
-        "chapter_url_status": "PENDING_LIVE_VERIFICATION"
+        "candidate_slug": "chapter-1",
+        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/chapter-1/",
+        "verified_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/chapter-1/",
+        "chapter_url_status": "VERIFIED_USER_CAPTURE"
       },
       "workbook": {
         "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH01&view=workbook",
@@ -59,8 +66,8 @@
         }
       ],
       "return_to_chapter": {
-        "verified_url": null,
-        "status": "PENDING_LIVE_VERIFICATION",
+        "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/chapter-1/",
+        "status": "VERIFIED_USER_CAPTURE",
         "exposure_rule": "Use verified_chapter_url only; do not promote candidate_chapter_url automatically."
       },
       "quiz_id": "QZ-CH01",
@@ -72,8 +79,8 @@
       "title": "Socrates and Plato",
       "sequence": 2,
       "pressbooks": {
-        "candidate_slug": "socrates-and-plato",
-        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/socrates-and-plato/",
+        "candidate_slug": "chapter-2",
+        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/chapter-2/",
         "verified_chapter_url": null,
         "chapter_url_status": "PENDING_LIVE_VERIFICATION"
       },
@@ -127,8 +134,8 @@
       "title": "Aristotle",
       "sequence": 3,
       "pressbooks": {
-        "candidate_slug": "aristotle",
-        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/aristotle/",
+        "candidate_slug": "chapter-3",
+        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/chapter-3/",
         "verified_chapter_url": null,
         "chapter_url_status": "PENDING_LIVE_VERIFICATION"
       },
@@ -182,8 +189,8 @@
       "title": "What Can Fortune Take From You?",
       "sequence": 4,
       "pressbooks": {
-        "candidate_slug": "what-can-fortune-take-from-you",
-        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/what-can-fortune-take-from-you/",
+        "candidate_slug": "chapter-4",
+        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/chapter-4/",
         "verified_chapter_url": null,
         "chapter_url_status": "PENDING_LIVE_VERIFICATION"
       },
@@ -247,8 +254,8 @@
       "title": "What Makes Law More Than Command?",
       "sequence": 5,
       "pressbooks": {
-        "candidate_slug": "what-makes-law-more-than-command",
-        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/what-makes-law-more-than-command/",
+        "candidate_slug": "chapter-5",
+        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/chapter-5/",
         "verified_chapter_url": null,
         "chapter_url_status": "PENDING_LIVE_VERIFICATION"
       },
@@ -312,8 +319,8 @@
       "title": "Why Obey?",
       "sequence": 6,
       "pressbooks": {
-        "candidate_slug": "why-obey",
-        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/why-obey/",
+        "candidate_slug": "chapter-6",
+        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/chapter-6/",
         "verified_chapter_url": null,
         "chapter_url_status": "PENDING_LIVE_VERIFICATION"
       },
@@ -377,8 +384,8 @@
       "title": "How Do We Come to Care?",
       "sequence": 7,
       "pressbooks": {
-        "candidate_slug": "how-do-we-come-to-care",
-        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/how-do-we-come-to-care/",
+        "candidate_slug": "chapter-7",
+        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/chapter-7/",
         "verified_chapter_url": null,
         "chapter_url_status": "PENDING_LIVE_VERIFICATION"
       },
@@ -442,8 +449,8 @@
       "title": "What Do We Owe Persons When Sympathy Is Not Enough?",
       "sequence": 8,
       "pressbooks": {
-        "candidate_slug": "what-do-we-owe-persons-when-sympathy-is-not-enough",
-        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/what-do-we-owe-persons-when-sympathy-is-not-enough/",
+        "candidate_slug": "chapter-8",
+        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/chapter-8/",
         "verified_chapter_url": null,
         "chapter_url_status": "PENDING_LIVE_VERIFICATION"
       },
@@ -507,8 +514,8 @@
       "title": "What Happens to Everyone Affected?",
       "sequence": 9,
       "pressbooks": {
-        "candidate_slug": "what-happens-to-everyone-affected",
-        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/what-happens-to-everyone-affected/",
+        "candidate_slug": "chapter-9",
+        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/chapter-9/",
         "verified_chapter_url": null,
         "chapter_url_status": "PENDING_LIVE_VERIFICATION"
       },
@@ -572,8 +579,8 @@
       "title": "What Is Shaping the Choice Before You Choose?",
       "sequence": 10,
       "pressbooks": {
-        "candidate_slug": "what-is-shaping-the-choice-before-you-choose",
-        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/what-is-shaping-the-choice-before-you-choose/",
+        "candidate_slug": "chapter-10",
+        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/chapter-10/",
         "verified_chapter_url": null,
         "chapter_url_status": "PENDING_LIVE_VERIFICATION"
       },
@@ -637,8 +644,8 @@
       "title": "Would You Choose the Rules Before Knowing Your Place?",
       "sequence": 11,
       "pressbooks": {
-        "candidate_slug": "would-you-choose-the-rules-before-knowing-your-place",
-        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/would-you-choose-the-rules-before-knowing-your-place/",
+        "candidate_slug": "chapter-11",
+        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/chapter-11/",
         "verified_chapter_url": null,
         "chapter_url_status": "PENDING_LIVE_VERIFICATION"
       },
@@ -702,8 +709,8 @@
       "title": "What Are People Actually Able to Do and Be?",
       "sequence": 12,
       "pressbooks": {
-        "candidate_slug": "what-are-people-actually-able-to-do-and-be",
-        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/what-are-people-actually-able-to-do-and-be/",
+        "candidate_slug": "chapter-12",
+        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/chapter-12/",
         "verified_chapter_url": null,
         "chapter_url_status": "PENDING_LIVE_VERIFICATION"
       },
