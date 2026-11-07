@@ -34,8 +34,14 @@
     "targeted_reading_capture_status": "COMPLETE_45_OF_45_BY_CHAPTER_ROUTE_PLUS_LABEL"
   },
   "super": {
-    "canonical_url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html",
-    "workbook_pattern": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter={CHxx}&view=workbook"
+    "canonical_url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-REDO-1.html",
+    "workbook_pattern": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-REDO-1.html#chapter={CHxx}&view=workbook",
+    "compatibility_redirect": {
+      "from": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html",
+      "to": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-REDO-1.html",
+      "preserves_hash": true,
+      "purpose": "Existing Pressbooks workbook links continue to resolve without editing the private book."
+    }
   },
   "chapters": [
     {
@@ -49,8 +55,8 @@
         "chapter_url_status": "VERIFIED_USER_CAPTURE"
       },
       "workbook": {
-        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH01&view=workbook",
-        "pressbooks_to_super_status": "ACTIVE_ALREADY_IN_PRESSBOOKS"
+        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-REDO-1.html#chapter=CH01&view=workbook",
+        "pressbooks_to_super_status": "COMPATIBLE_VIA_FINAL_1_REDIRECT_AND_REDO_CANONICAL"
       },
       "targeted_readings": [
         {
@@ -107,8 +113,8 @@
         "chapter_url_status": "VERIFIED_USER_CAPTURE"
       },
       "workbook": {
-        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH02&view=workbook",
-        "pressbooks_to_super_status": "ACTIVE_ALREADY_IN_PRESSBOOKS"
+        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-REDO-1.html#chapter=CH02&view=workbook",
+        "pressbooks_to_super_status": "COMPATIBLE_VIA_FINAL_1_REDIRECT_AND_REDO_CANONICAL"
       },
       "targeted_readings": [
         {
@@ -165,8 +171,8 @@
         "chapter_url_status": "VERIFIED_USER_CAPTURE"
       },
       "workbook": {
-        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH03&view=workbook",
-        "pressbooks_to_super_status": "ACTIVE_ALREADY_IN_PRESSBOOKS"
+        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-REDO-1.html#chapter=CH03&view=workbook",
+        "pressbooks_to_super_status": "COMPATIBLE_VIA_FINAL_1_REDIRECT_AND_REDO_CANONICAL"
       },
       "targeted_readings": [
         {
@@ -223,8 +229,8 @@
         "chapter_url_status": "VERIFIED_USER_CAPTURE"
       },
       "workbook": {
-        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH04&view=workbook",
-        "pressbooks_to_super_status": "ACTIVE_ALREADY_IN_PRESSBOOKS"
+        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-REDO-1.html#chapter=CH04&view=workbook",
+        "pressbooks_to_super_status": "COMPATIBLE_VIA_FINAL_1_REDIRECT_AND_REDO_CANONICAL"
       },
       "targeted_readings": [
         {
@@ -292,8 +298,8 @@
         "chapter_url_status": "VERIFIED_USER_CAPTURE"
       },
       "workbook": {
-        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH05&view=workbook",
-        "pressbooks_to_super_status": "ACTIVE_ALREADY_IN_PRESSBOOKS"
+        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-REDO-1.html#chapter=CH05&view=workbook",
+        "pressbooks_to_super_status": "COMPATIBLE_VIA_FINAL_1_REDIRECT_AND_REDO_CANONICAL"
       },
       "targeted_readings": [
         {
@@ -361,8 +367,8 @@
         "chapter_url_status": "VERIFIED_USER_CAPTURE"
       },
       "workbook": {
-        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH06&view=workbook",
-        "pressbooks_to_super_status": "ACTIVE_ALREADY_IN_PRESSBOOKS"
+        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-REDO-1.html#chapter=CH06&view=workbook",
+        "pressbooks_to_super_status": "COMPATIBLE_VIA_FINAL_1_REDIRECT_AND_REDO_CANONICAL"
       },
       "targeted_readings": [
         {
@@ -430,8 +436,8 @@
         "chapter_url_status": "VERIFIED_USER_CAPTURE"
       },
       "workbook": {
-        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH07&view=workbook",
-        "pressbooks_to_super_status": "ACTIVE_ALREADY_IN_PRESSBOOKS"
+        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-REDO-1.html#chapter=CH07&view=workbook",
+        "pressbooks_to_super_status": "COMPATIBLE_VIA_FINAL_1_REDIRECT_AND_REDO_CANONICAL"
       },
       "targeted_readings": [
         {
@@ -499,8 +505,8 @@
         "chapter_url_status": "VERIFIED_USER_CAPTURE"
       },
       "workbook": {
-        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH08&view=workbook",
-        "pressbooks_to_super_status": "ACTIVE_ALREADY_IN_PRESSBOOKS"
+        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-REDO-1.html#chapter=CH08&view=workbook",
+        "pressbooks_to_super_status": "COMPATIBLE_VIA_FINAL_1_REDIRECT_AND_REDO_CANONICAL"
       },
       "targeted_readings": [
         {
@@ -568,8 +574,8 @@
         "chapter_url_status": "VERIFIED_USER_CAPTURE"
       },
       "workbook": {
-        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH09&view=workbook",
-        "pressbooks_to_super_status": "ACTIVE_ALREADY_IN_PRESSBOOKS"
+        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-REDO-1.html#chapter=CH09&view=workbook",
+        "pressbooks_to_super_status": "COMPATIBLE_VIA_FINAL_1_REDIRECT_AND_REDO_CANONICAL"
       },
       "targeted_readings": [
         {
@@ -637,8 +643,8 @@
         "chapter_url_status": "VERIFIED_USER_CAPTURE"
       },
       "workbook": {
-        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH10&view=workbook",
-        "pressbooks_to_super_status": "ACTIVE_ALREADY_IN_PRESSBOOKS"
+        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-REDO-1.html#chapter=CH10&view=workbook",
+        "pressbooks_to_super_status": "COMPATIBLE_VIA_FINAL_1_REDIRECT_AND_REDO_CANONICAL"
       },
       "targeted_readings": [
         {
@@ -706,8 +712,8 @@
         "chapter_url_status": "VERIFIED_USER_CAPTURE"
       },
       "workbook": {
-        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH11&view=workbook",
-        "pressbooks_to_super_status": "ACTIVE_ALREADY_IN_PRESSBOOKS"
+        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-REDO-1.html#chapter=CH11&view=workbook",
+        "pressbooks_to_super_status": "COMPATIBLE_VIA_FINAL_1_REDIRECT_AND_REDO_CANONICAL"
       },
       "targeted_readings": [
         {
@@ -775,8 +781,8 @@
         "chapter_url_status": "VERIFIED_USER_CAPTURE"
       },
       "workbook": {
-        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH12&view=workbook",
-        "pressbooks_to_super_status": "ACTIVE_ALREADY_IN_PRESSBOOKS"
+        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-REDO-1.html#chapter=CH12&view=workbook",
+        "pressbooks_to_super_status": "COMPATIBLE_VIA_FINAL_1_REDIRECT_AND_REDO_CANONICAL"
       },
       "targeted_readings": [
         {

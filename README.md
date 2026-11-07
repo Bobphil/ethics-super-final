@@ -1,25 +1,26 @@
-# Ethics SUPER — Final Production App
+# Ethics SUPER — REDO Production App
 
-Production repository for `ETHICS-SUPER-FINAL-1`.
+Production repository for `ETHICS-SUPER-REDO-1`.
 
-## Published surfaces
+## Canonical surfaces
 
-- `index.html` — root GitHub Pages entry
-- `ETHICS-SUPER-FINAL-1.html` — canonical versioned application entry used by course deep links
-- `ETHICS-SUPER-FINAL-1_binding_HCC.json` — HCC deployment binding template
-- `ETHICS-SUPER-FINAL-1_binding_SPC.json` — SPC deployment binding template
+- `index.html` — redirects to REDO
+- `ETHICS-SUPER-REDO-1.html` — canonical application
+- `ETHICS-SUPER-FINAL-1.html` — compatibility redirect preserving chapter/view hashes
+- `ETHICS-PB-URL-BIND-1_MANIFEST.json` — sole Pressbooks routing source
+- `ETHICS-SUPER-REDO-1_ACCEPTANCE.mjs` — static/contract regression
 
 ## Deep-link contract
 
-Use:
+`.../ETHICS-SUPER-REDO-1.html#chapter=CH##&view=workbook`
 
-`.../ETHICS-SUPER-FINAL-1.html#chapter=CH##&view=workbook`
+Legacy FINAL-1 deep links are redirected to this route with the hash preserved.
 
-The PFLAB URL is supplied later through the institution-specific binding file.
+## Production locks
 
-## Production lock
+Build: `ETHICS-SUPER-REDO-1`  
+Content: `ETHICS-PB-PROD-3`  
+Pressbooks routing: `ETHICS-PB-URL-BIND-1`  
+PFLAB: `ETHICS-PFLAB-2`
 
-Build: `ETHICS-SUPER-FINAL-1`  
-Content version: `ETHICS-PB-PROD-2`
-
-Do not edit chapter content during deployment. Routing/binding changes belong to `ETHICS-ROUTING-FINAL-1`.
+Canvas owns Quiz and Personal Ethics Journal routing.
