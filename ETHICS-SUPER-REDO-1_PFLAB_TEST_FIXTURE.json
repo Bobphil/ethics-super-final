@@ -1,0 +1,753 @@
+{
+  "schema_version": "2.2.0",
+  "content_version": "ETHICS-PB-PROD-3",
+  "active": {
+    "chapter": "CH12",
+    "view": "pflab"
+  },
+  "chapters": {
+    "CH01": {
+      "status": "READY",
+      "moves": {
+        "m1": "Acceptance-test placeholder",
+        "m2": "Acceptance-test placeholder",
+        "m3": "Acceptance-test placeholder",
+        "m4": "Acceptance-test placeholder"
+      },
+      "card": {
+        "specific": {
+          "observed": "Acceptance-test placeholder",
+          "added": "Acceptance-test placeholder",
+          "missing": "Acceptance-test placeholder"
+        },
+        "judgment": "Acceptance-test judgment",
+        "pressure": "Acceptance-test pressure result",
+        "claim_ceiling": "Observed behavior ≠ known intention. Incomplete map ≠ impossible judgment.",
+        "response": "Act on the bounded judgment",
+        "carry": "Acceptance-test carry-forward"
+      },
+      "snapshots": [
+        {
+          "snapshot_id": "CH01-PFLAB-TEST",
+          "created_at": "2026-11-07T00:00:00.000Z",
+          "status": "READY",
+          "moves": {
+            "m1": "Acceptance-test placeholder",
+            "m2": "Acceptance-test placeholder",
+            "m3": "Acceptance-test placeholder",
+            "m4": "Acceptance-test placeholder"
+          },
+          "card": {
+            "specific": {
+              "observed": "Acceptance-test placeholder",
+              "added": "Acceptance-test placeholder",
+              "missing": "Acceptance-test placeholder"
+            },
+            "judgment": "Acceptance-test judgment",
+            "pressure": "Acceptance-test pressure result",
+            "claim_ceiling": "Observed behavior ≠ known intention. Incomplete map ≠ impossible judgment.",
+            "response": "Act on the bounded judgment",
+            "carry": "Acceptance-test carry-forward"
+          }
+        }
+      ],
+      "reopen_ledger": []
+    },
+    "CH02": {
+      "status": "READY",
+      "moves": {
+        "m1": "Acceptance-test placeholder",
+        "m2": "Acceptance-test placeholder",
+        "m3": "Acceptance-test placeholder",
+        "m4": "Acceptance-test placeholder"
+      },
+      "card": {
+        "specific": {
+          "claim": "Acceptance-test placeholder",
+          "reason": "Acceptance-test placeholder",
+          "license": "Acceptance-test placeholder"
+        },
+        "judgment": "Acceptance-test judgment",
+        "pressure": "Acceptance-test pressure result",
+        "claim_ceiling": "Failed justification ≠ opposite conclusion proven. Authority approval ≠ sufficient explanation of justice.",
+        "response": "Accept provisionally",
+        "carry": "Acceptance-test carry-forward"
+      },
+      "snapshots": [
+        {
+          "snapshot_id": "CH02-PFLAB-TEST",
+          "created_at": "2026-11-07T00:00:00.000Z",
+          "status": "READY",
+          "moves": {
+            "m1": "Acceptance-test placeholder",
+            "m2": "Acceptance-test placeholder",
+            "m3": "Acceptance-test placeholder",
+            "m4": "Acceptance-test placeholder"
+          },
+          "card": {
+            "specific": {
+              "claim": "Acceptance-test placeholder",
+              "reason": "Acceptance-test placeholder",
+              "license": "Acceptance-test placeholder"
+            },
+            "judgment": "Acceptance-test judgment",
+            "pressure": "Acceptance-test pressure result",
+            "claim_ceiling": "Failed justification ≠ opposite conclusion proven. Authority approval ≠ sufficient explanation of justice.",
+            "response": "Accept provisionally",
+            "carry": "Acceptance-test carry-forward"
+          }
+        }
+      ],
+      "reopen_ledger": []
+    },
+    "CH03": {
+      "status": "READY",
+      "moves": {
+        "m1": "Acceptance-test placeholder",
+        "m2": "Acceptance-test placeholder",
+        "m3": "Acceptance-test placeholder",
+        "m4": "Acceptance-test placeholder"
+      },
+      "card": {
+        "specific": {
+          "formation": "Acceptance-test placeholder",
+          "demand": "Acceptance-test placeholder",
+          "why": "Acceptance-test placeholder"
+        },
+        "judgment": "Acceptance-test judgment",
+        "pressure": "Acceptance-test pressure result",
+        "claim_ceiling": "Formation ≠ justification. Bad outcome ≠ every preventive act obligatory.",
+        "response": "Act / escalate",
+        "carry": "Acceptance-test carry-forward"
+      },
+      "snapshots": [
+        {
+          "snapshot_id": "CH03-PFLAB-TEST",
+          "created_at": "2026-11-07T00:00:00.000Z",
+          "status": "READY",
+          "moves": {
+            "m1": "Acceptance-test placeholder",
+            "m2": "Acceptance-test placeholder",
+            "m3": "Acceptance-test placeholder",
+            "m4": "Acceptance-test placeholder"
+          },
+          "card": {
+            "specific": {
+              "formation": "Acceptance-test placeholder",
+              "demand": "Acceptance-test placeholder",
+              "why": "Acceptance-test placeholder"
+            },
+            "judgment": "Acceptance-test judgment",
+            "pressure": "Acceptance-test pressure result",
+            "claim_ceiling": "Formation ≠ justification. Bad outcome ≠ every preventive act obligatory.",
+            "response": "Act / escalate",
+            "carry": "Acceptance-test carry-forward"
+          }
+        }
+      ],
+      "reopen_ledger": []
+    },
+    "CH04": {
+      "status": "READY",
+      "moves": {
+        "m1": "Acceptance-test placeholder",
+        "m2": "Acceptance-test placeholder",
+        "m3": "Acceptance-test placeholder",
+        "m4": "Acceptance-test placeholder"
+      },
+      "card": {
+        "specific": {
+          "outside": "Acceptance-test placeholder",
+          "remaining": "Acceptance-test placeholder",
+          "boundary": "Acceptance-test placeholder"
+        },
+        "judgment": "Acceptance-test judgment",
+        "pressure": "Acceptance-test pressure result",
+        "claim_ceiling": "Not under control ≠ not important. Remaining agency ≠ unlimited obligation.",
+        "response": "Use remaining agency",
+        "carry": "Acceptance-test carry-forward"
+      },
+      "snapshots": [
+        {
+          "snapshot_id": "CH04-PFLAB-TEST",
+          "created_at": "2026-11-07T00:00:00.000Z",
+          "status": "READY",
+          "moves": {
+            "m1": "Acceptance-test placeholder",
+            "m2": "Acceptance-test placeholder",
+            "m3": "Acceptance-test placeholder",
+            "m4": "Acceptance-test placeholder"
+          },
+          "card": {
+            "specific": {
+              "outside": "Acceptance-test placeholder",
+              "remaining": "Acceptance-test placeholder",
+              "boundary": "Acceptance-test placeholder"
+            },
+            "judgment": "Acceptance-test judgment",
+            "pressure": "Acceptance-test pressure result",
+            "claim_ceiling": "Not under control ≠ not important. Remaining agency ≠ unlimited obligation.",
+            "response": "Use remaining agency",
+            "carry": "Acceptance-test carry-forward"
+          }
+        }
+      ],
+      "reopen_ledger": []
+    },
+    "CH05": {
+      "status": "READY",
+      "moves": {
+        "m1": "Acceptance-test placeholder",
+        "m2": "Acceptance-test placeholder",
+        "m3": "Acceptance-test placeholder",
+        "m4": "Acceptance-test placeholder"
+      },
+      "card": {
+        "specific": {
+          "good": "Acceptance-test placeholder",
+          "binds": "Acceptance-test placeholder",
+          "exception": "Acceptance-test placeholder",
+          "scope": "Acceptance-test placeholder"
+        },
+        "judgment": "Acceptance-test judgment",
+        "pressure": "Acceptance-test pressure result",
+        "claim_ceiling": "Enactment ≠ sufficient bindingness. Good purpose ≠ one uniquely required policy.",
+        "response": "Enforce",
+        "carry": "Acceptance-test carry-forward"
+      },
+      "snapshots": [
+        {
+          "snapshot_id": "CH05-PFLAB-TEST",
+          "created_at": "2026-11-07T00:00:00.000Z",
+          "status": "READY",
+          "moves": {
+            "m1": "Acceptance-test placeholder",
+            "m2": "Acceptance-test placeholder",
+            "m3": "Acceptance-test placeholder",
+            "m4": "Acceptance-test placeholder"
+          },
+          "card": {
+            "specific": {
+              "good": "Acceptance-test placeholder",
+              "binds": "Acceptance-test placeholder",
+              "exception": "Acceptance-test placeholder",
+              "scope": "Acceptance-test placeholder"
+            },
+            "judgment": "Acceptance-test judgment",
+            "pressure": "Acceptance-test pressure result",
+            "claim_ceiling": "Enactment ≠ sufficient bindingness. Good purpose ≠ one uniquely required policy.",
+            "response": "Enforce",
+            "carry": "Acceptance-test carry-forward"
+          }
+        }
+      ],
+      "reopen_ledger": []
+    },
+    "CH06": {
+      "status": "READY",
+      "moves": {
+        "m1": "Acceptance-test placeholder",
+        "m2": "Acceptance-test placeholder",
+        "m3": "Acceptance-test placeholder",
+        "m4": "Acceptance-test placeholder"
+      },
+      "card": {
+        "specific": {
+          "standing": "Acceptance-test placeholder",
+          "limit": "Acceptance-test placeholder",
+          "strategy": "Acceptance-test placeholder",
+          "trigger": "Acceptance-test placeholder",
+          "reconstruction": "Acceptance-test placeholder"
+        },
+        "judgment": "Acceptance-test judgment",
+        "pressure": "Acceptance-test pressure result",
+        "claim_ceiling": "Power ≠ legitimacy. Illegitimacy ≠ unlimited authorization. Negotiation ≠ endorsement.",
+        "response": "Resist",
+        "carry": "Acceptance-test carry-forward"
+      },
+      "snapshots": [
+        {
+          "snapshot_id": "CH06-PFLAB-TEST",
+          "created_at": "2026-11-07T00:00:00.000Z",
+          "status": "READY",
+          "moves": {
+            "m1": "Acceptance-test placeholder",
+            "m2": "Acceptance-test placeholder",
+            "m3": "Acceptance-test placeholder",
+            "m4": "Acceptance-test placeholder"
+          },
+          "card": {
+            "specific": {
+              "standing": "Acceptance-test placeholder",
+              "limit": "Acceptance-test placeholder",
+              "strategy": "Acceptance-test placeholder",
+              "trigger": "Acceptance-test placeholder",
+              "reconstruction": "Acceptance-test placeholder"
+            },
+            "judgment": "Acceptance-test judgment",
+            "pressure": "Acceptance-test pressure result",
+            "claim_ceiling": "Power ≠ legitimacy. Illegitimacy ≠ unlimited authorization. Negotiation ≠ endorsement.",
+            "response": "Resist",
+            "carry": "Acceptance-test carry-forward"
+          }
+        }
+      ],
+      "reopen_ledger": []
+    },
+    "CH07": {
+      "status": "READY",
+      "moves": {
+        "m1": "Acceptance-test placeholder",
+        "m2": "Acceptance-test placeholder",
+        "m3": "Acceptance-test placeholder",
+        "m4": "Acceptance-test placeholder"
+      },
+      "card": {
+        "specific": {
+          "suffering": "Acceptance-test placeholder",
+          "standpoint": "Acceptance-test placeholder",
+          "gap": "Acceptance-test placeholder",
+          "level": "Acceptance-test placeholder",
+          "intervention": "Acceptance-test placeholder"
+        },
+        "judgment": "Acceptance-test judgment",
+        "pressure": "Acceptance-test pressure result",
+        "claim_ceiling": "Sympathy ≠ direct access. Feeling strongly ≠ judging accurately. Institutional pattern ≠ individual wrongdoing.",
+        "response": "Protect the affected resident",
+        "carry": "Acceptance-test carry-forward"
+      },
+      "snapshots": [
+        {
+          "snapshot_id": "CH07-PFLAB-TEST",
+          "created_at": "2026-11-07T00:00:00.000Z",
+          "status": "READY",
+          "moves": {
+            "m1": "Acceptance-test placeholder",
+            "m2": "Acceptance-test placeholder",
+            "m3": "Acceptance-test placeholder",
+            "m4": "Acceptance-test placeholder"
+          },
+          "card": {
+            "specific": {
+              "suffering": "Acceptance-test placeholder",
+              "standpoint": "Acceptance-test placeholder",
+              "gap": "Acceptance-test placeholder",
+              "level": "Acceptance-test placeholder",
+              "intervention": "Acceptance-test placeholder"
+            },
+            "judgment": "Acceptance-test judgment",
+            "pressure": "Acceptance-test pressure result",
+            "claim_ceiling": "Sympathy ≠ direct access. Feeling strongly ≠ judging accurately. Institutional pattern ≠ individual wrongdoing.",
+            "response": "Protect the affected resident",
+            "carry": "Acceptance-test carry-forward"
+          }
+        }
+      ],
+      "reopen_ledger": []
+    },
+    "CH08": {
+      "status": "READY",
+      "moves": {
+        "m1": "Acceptance-test placeholder",
+        "m2": "Acceptance-test placeholder",
+        "m3": "Acceptance-test placeholder",
+        "m4": "Acceptance-test placeholder"
+      },
+      "card": {
+        "specific": {
+          "options": "Acceptance-test placeholder",
+          "information": "Acceptance-test placeholder",
+          "influence": "Acceptance-test placeholder",
+          "authorship": "Acceptance-test placeholder",
+          "maxim": "Acceptance-test placeholder"
+        },
+        "judgment": "Acceptance-test judgment",
+        "pressure": "Acceptance-test pressure result",
+        "claim_ceiling": "Beneficial outcome ≠ permission to bypass agency. Autonomy ≠ preference sovereignty.",
+        "response": "Disclose and recommend strongly",
+        "carry": "Acceptance-test carry-forward"
+      },
+      "snapshots": [
+        {
+          "snapshot_id": "CH08-PFLAB-TEST",
+          "created_at": "2026-11-07T00:00:00.000Z",
+          "status": "READY",
+          "moves": {
+            "m1": "Acceptance-test placeholder",
+            "m2": "Acceptance-test placeholder",
+            "m3": "Acceptance-test placeholder",
+            "m4": "Acceptance-test placeholder"
+          },
+          "card": {
+            "specific": {
+              "options": "Acceptance-test placeholder",
+              "information": "Acceptance-test placeholder",
+              "influence": "Acceptance-test placeholder",
+              "authorship": "Acceptance-test placeholder",
+              "maxim": "Acceptance-test placeholder"
+            },
+            "judgment": "Acceptance-test judgment",
+            "pressure": "Acceptance-test pressure result",
+            "claim_ceiling": "Beneficial outcome ≠ permission to bypass agency. Autonomy ≠ preference sovereignty.",
+            "response": "Disclose and recommend strongly",
+            "carry": "Acceptance-test carry-forward"
+          }
+        }
+      ],
+      "reopen_ledger": []
+    },
+    "CH09": {
+      "status": "READY",
+      "moves": {
+        "m1": "Acceptance-test placeholder",
+        "m2": "Acceptance-test placeholder",
+        "m3": "Acceptance-test placeholder",
+        "m4": "Acceptance-test placeholder"
+      },
+      "card": {
+        "specific": {
+          "benefit": "Acceptance-test placeholder",
+          "burden": "Acceptance-test placeholder",
+          "who": "Acceptance-test placeholder",
+          "confidence": "Acceptance-test placeholder",
+          "liberty": "Acceptance-test placeholder",
+          "alternative": "Acceptance-test placeholder"
+        },
+        "judgment": "Acceptance-test judgment",
+        "pressure": "Acceptance-test pressure result",
+        "claim_ceiling": "Aggregation ≠ fair distribution. Predicted benefit ≠ complete justification. Harm ≠ automatic coercive authority.",
+        "response": "Adopt",
+        "carry": "Acceptance-test carry-forward"
+      },
+      "snapshots": [
+        {
+          "snapshot_id": "CH09-PFLAB-TEST",
+          "created_at": "2026-11-07T00:00:00.000Z",
+          "status": "READY",
+          "moves": {
+            "m1": "Acceptance-test placeholder",
+            "m2": "Acceptance-test placeholder",
+            "m3": "Acceptance-test placeholder",
+            "m4": "Acceptance-test placeholder"
+          },
+          "card": {
+            "specific": {
+              "benefit": "Acceptance-test placeholder",
+              "burden": "Acceptance-test placeholder",
+              "who": "Acceptance-test placeholder",
+              "confidence": "Acceptance-test placeholder",
+              "liberty": "Acceptance-test placeholder",
+              "alternative": "Acceptance-test placeholder"
+            },
+            "judgment": "Acceptance-test judgment",
+            "pressure": "Acceptance-test pressure result",
+            "claim_ceiling": "Aggregation ≠ fair distribution. Predicted benefit ≠ complete justification. Harm ≠ automatic coercive authority.",
+            "response": "Adopt",
+            "carry": "Acceptance-test carry-forward"
+          }
+        }
+      ],
+      "reopen_ledger": []
+    },
+    "CH10": {
+      "status": "READY",
+      "moves": {
+        "m1": "Acceptance-test placeholder",
+        "m2": "Acceptance-test placeholder",
+        "m3": "Acceptance-test placeholder",
+        "m4": "Acceptance-test placeholder"
+      },
+      "card": {
+        "specific": {
+          "formal": "Acceptance-test placeholder",
+          "leverage": "Acceptance-test placeholder",
+          "control": "Acceptance-test placeholder",
+          "value": "Acceptance-test placeholder"
+        },
+        "judgment": "Acceptance-test judgment",
+        "pressure": "Acceptance-test pressure result",
+        "claim_ceiling": "Formal choice ≠ equal practical freedom. Structure ≠ no agency. Genealogy ≠ refutation.",
+        "response": "Change material conditions",
+        "carry": "Acceptance-test carry-forward"
+      },
+      "snapshots": [
+        {
+          "snapshot_id": "CH10-PFLAB-TEST",
+          "created_at": "2026-11-07T00:00:00.000Z",
+          "status": "READY",
+          "moves": {
+            "m1": "Acceptance-test placeholder",
+            "m2": "Acceptance-test placeholder",
+            "m3": "Acceptance-test placeholder",
+            "m4": "Acceptance-test placeholder"
+          },
+          "card": {
+            "specific": {
+              "formal": "Acceptance-test placeholder",
+              "leverage": "Acceptance-test placeholder",
+              "control": "Acceptance-test placeholder",
+              "value": "Acceptance-test placeholder"
+            },
+            "judgment": "Acceptance-test judgment",
+            "pressure": "Acceptance-test pressure result",
+            "claim_ceiling": "Formal choice ≠ equal practical freedom. Structure ≠ no agency. Genealogy ≠ refutation.",
+            "response": "Change material conditions",
+            "carry": "Acceptance-test carry-forward"
+          }
+        }
+      ],
+      "reopen_ledger": []
+    },
+    "CH11": {
+      "status": "READY",
+      "moves": {
+        "m1": "Acceptance-test placeholder",
+        "m2": "Acceptance-test placeholder",
+        "m3": "Acceptance-test placeholder",
+        "m4": "Acceptance-test placeholder"
+      },
+      "card": {
+        "specific": {
+          "rule": "Acceptance-test placeholder",
+          "hidden": "Acceptance-test placeholder",
+          "opportunity": "Acceptance-test placeholder",
+          "inequality": "Acceptance-test placeholder",
+          "veil": "Acceptance-test placeholder"
+        },
+        "judgment": "Acceptance-test judgment",
+        "pressure": "Acceptance-test pressure result",
+        "claim_ceiling": "Formal access ≠ fair opportunity. Higher average welfare ≠ justice. Inequality ≠ automatically unjust.",
+        "response": "Adopt rule",
+        "carry": "Acceptance-test carry-forward"
+      },
+      "snapshots": [
+        {
+          "snapshot_id": "CH11-PFLAB-TEST",
+          "created_at": "2026-11-07T00:00:00.000Z",
+          "status": "READY",
+          "moves": {
+            "m1": "Acceptance-test placeholder",
+            "m2": "Acceptance-test placeholder",
+            "m3": "Acceptance-test placeholder",
+            "m4": "Acceptance-test placeholder"
+          },
+          "card": {
+            "specific": {
+              "rule": "Acceptance-test placeholder",
+              "hidden": "Acceptance-test placeholder",
+              "opportunity": "Acceptance-test placeholder",
+              "inequality": "Acceptance-test placeholder",
+              "veil": "Acceptance-test placeholder"
+            },
+            "judgment": "Acceptance-test judgment",
+            "pressure": "Acceptance-test pressure result",
+            "claim_ceiling": "Formal access ≠ fair opportunity. Higher average welfare ≠ justice. Inequality ≠ automatically unjust.",
+            "response": "Adopt rule",
+            "carry": "Acceptance-test carry-forward"
+          }
+        }
+      ],
+      "reopen_ledger": []
+    },
+    "CH12": {
+      "status": "READY",
+      "moves": {
+        "m1": "Acceptance-test placeholder",
+        "m2": "Acceptance-test placeholder",
+        "m3": "Acceptance-test placeholder",
+        "m4": "Acceptance-test placeholder"
+      },
+      "card": {
+        "specific": {
+          "task": "Acceptance-test placeholder",
+          "capability": "Acceptance-test placeholder",
+          "conversion": "Acceptance-test placeholder",
+          "care": "Acceptance-test placeholder",
+          "power": "Acceptance-test placeholder",
+          "durability": "Acceptance-test placeholder"
+        },
+        "judgment": "Acceptance-test judgment",
+        "pressure": "Acceptance-test pressure result",
+        "claim_ceiling": "Dependency ≠ absence of agency. Resource ≠ capability. Capability ≠ functioning. Care ≠ Capability.",
+        "response": "Improve conversion conditions",
+        "carry": "Acceptance-test carry-forward"
+      },
+      "snapshots": [
+        {
+          "snapshot_id": "CH12-PFLAB-TEST",
+          "created_at": "2026-11-07T00:00:00.000Z",
+          "status": "READY",
+          "moves": {
+            "m1": "Acceptance-test placeholder",
+            "m2": "Acceptance-test placeholder",
+            "m3": "Acceptance-test placeholder",
+            "m4": "Acceptance-test placeholder"
+          },
+          "card": {
+            "specific": {
+              "task": "Acceptance-test placeholder",
+              "capability": "Acceptance-test placeholder",
+              "conversion": "Acceptance-test placeholder",
+              "care": "Acceptance-test placeholder",
+              "power": "Acceptance-test placeholder",
+              "durability": "Acceptance-test placeholder"
+            },
+            "judgment": "Acceptance-test judgment",
+            "pressure": "Acceptance-test pressure result",
+            "claim_ceiling": "Dependency ≠ absence of agency. Resource ≠ capability. Capability ≠ functioning. Care ≠ Capability.",
+            "response": "Improve conversion conditions",
+            "carry": "Acceptance-test carry-forward"
+          }
+        }
+      ],
+      "reopen_ledger": []
+    }
+  },
+  "tool_record": {
+    "TOOL-CH01": {
+      "chapter_id": "CH01",
+      "tool_id": "TOOL-CH01",
+      "tool_name": "Ethical Attention / First Map Audit",
+      "made_visible": "Acceptance-test placeholder",
+      "claim_ceiling": "Observed behavior ≠ known intention. Incomplete map ≠ impossible judgment.",
+      "carry_forward": "Acceptance-test carry-forward",
+      "output_card_ref": "OC-CH01",
+      "status": "READY",
+      "updated_at": "2026-11-07T00:00:00.000Z"
+    },
+    "TOOL-CH02": {
+      "chapter_id": "CH02",
+      "tool_id": "TOOL-CH02",
+      "tool_name": "Examination / Reason-Giving Audit",
+      "made_visible": "Acceptance-test placeholder",
+      "claim_ceiling": "Failed justification ≠ opposite conclusion proven. Authority approval ≠ sufficient explanation of justice.",
+      "carry_forward": "Acceptance-test carry-forward",
+      "output_card_ref": "OC-CH02",
+      "status": "READY",
+      "updated_at": "2026-11-07T00:00:00.000Z"
+    },
+    "TOOL-CH03": {
+      "chapter_id": "CH03",
+      "tool_id": "TOOL-CH03",
+      "tool_name": "Formation / Practical-Wisdom Audit",
+      "made_visible": "Acceptance-test placeholder",
+      "claim_ceiling": "Formation ≠ justification. Bad outcome ≠ every preventive act obligatory.",
+      "carry_forward": "Acceptance-test carry-forward",
+      "output_card_ref": "OC-CH03",
+      "status": "READY",
+      "updated_at": "2026-11-07T00:00:00.000Z"
+    },
+    "TOOL-CH04": {
+      "chapter_id": "CH04",
+      "tool_id": "TOOL-CH04",
+      "tool_name": "Control / Desire / Moral-Range Audit",
+      "made_visible": "Acceptance-test placeholder",
+      "claim_ceiling": "Not under control ≠ not important. Remaining agency ≠ unlimited obligation.",
+      "carry_forward": "Acceptance-test carry-forward",
+      "output_card_ref": "OC-CH04",
+      "status": "READY",
+      "updated_at": "2026-11-07T00:00:00.000Z"
+    },
+    "TOOL-CH05": {
+      "chapter_id": "CH05",
+      "tool_id": "TOOL-CH05",
+      "tool_name": "Moral Authority / Common-Good Audit",
+      "made_visible": "Acceptance-test placeholder",
+      "claim_ceiling": "Enactment ≠ sufficient bindingness. Good purpose ≠ one uniquely required policy.",
+      "carry_forward": "Acceptance-test carry-forward",
+      "output_card_ref": "OC-CH05",
+      "status": "READY",
+      "updated_at": "2026-11-07T00:00:00.000Z"
+    },
+    "TOOL-CH06": {
+      "chapter_id": "CH06",
+      "tool_id": "TOOL-CH06",
+      "tool_name": "Legitimacy / Standing Audit",
+      "made_visible": "Acceptance-test placeholder",
+      "claim_ceiling": "Power ≠ legitimacy. Illegitimacy ≠ unlimited authorization. Negotiation ≠ endorsement.",
+      "carry_forward": "Acceptance-test carry-forward",
+      "output_card_ref": "OC-CH06",
+      "status": "READY",
+      "updated_at": "2026-11-07T00:00:00.000Z"
+    },
+    "TOOL-CH07": {
+      "chapter_id": "CH07",
+      "tool_id": "TOOL-CH07",
+      "tool_name": "Perspective / Moral-Visibility Audit",
+      "made_visible": "Acceptance-test placeholder",
+      "claim_ceiling": "Sympathy ≠ direct access. Feeling strongly ≠ judging accurately. Institutional pattern ≠ individual wrongdoing.",
+      "carry_forward": "Acceptance-test carry-forward",
+      "output_card_ref": "OC-CH07",
+      "status": "READY",
+      "updated_at": "2026-11-07T00:00:00.000Z"
+    },
+    "TOOL-CH08": {
+      "chapter_id": "CH08",
+      "tool_id": "TOOL-CH08",
+      "tool_name": "Respect / Duty / Autonomy Audit",
+      "made_visible": "Acceptance-test placeholder",
+      "claim_ceiling": "Beneficial outcome ≠ permission to bypass agency. Autonomy ≠ preference sovereignty.",
+      "carry_forward": "Acceptance-test carry-forward",
+      "output_card_ref": "OC-CH08",
+      "status": "READY",
+      "updated_at": "2026-11-07T00:00:00.000Z"
+    },
+    "TOOL-CH09": {
+      "chapter_id": "CH09",
+      "tool_id": "TOOL-CH09",
+      "tool_name": "Consequence / Welfare / Harm Audit",
+      "made_visible": "Acceptance-test placeholder",
+      "claim_ceiling": "Aggregation ≠ fair distribution. Predicted benefit ≠ complete justification. Harm ≠ automatic coercive authority.",
+      "carry_forward": "Acceptance-test carry-forward",
+      "output_card_ref": "OC-CH09",
+      "status": "READY",
+      "updated_at": "2026-11-07T00:00:00.000Z"
+    },
+    "TOOL-CH10": {
+      "chapter_id": "CH10",
+      "tool_id": "TOOL-CH10",
+      "tool_name": "Background Power / Genealogy Audit",
+      "made_visible": "Acceptance-test placeholder",
+      "claim_ceiling": "Formal choice ≠ equal practical freedom. Structure ≠ no agency. Genealogy ≠ refutation.",
+      "carry_forward": "Acceptance-test carry-forward",
+      "output_card_ref": "OC-CH10",
+      "status": "READY",
+      "updated_at": "2026-11-07T00:00:00.000Z"
+    },
+    "TOOL-CH11": {
+      "chapter_id": "CH11",
+      "tool_id": "TOOL-CH11",
+      "tool_name": "Fair-Structure / Veil-of-Ignorance Audit",
+      "made_visible": "Acceptance-test placeholder",
+      "claim_ceiling": "Formal access ≠ fair opportunity. Higher average welfare ≠ justice. Inequality ≠ automatically unjust.",
+      "carry_forward": "Acceptance-test carry-forward",
+      "output_card_ref": "OC-CH11",
+      "status": "READY",
+      "updated_at": "2026-11-07T00:00:00.000Z"
+    },
+    "TOOL-CH12": {
+      "chapter_id": "CH12",
+      "tool_id": "TOOL-CH12",
+      "tool_name": "Dependency / Effective-Capability Audit",
+      "made_visible": "Acceptance-test placeholder",
+      "claim_ceiling": "Dependency ≠ absence of agency. Resource ≠ capability. Capability ≠ functioning. Care ≠ Capability.",
+      "carry_forward": "Acceptance-test carry-forward",
+      "output_card_ref": "OC-CH12",
+      "status": "READY",
+      "updated_at": "2026-11-07T00:00:00.000Z"
+    }
+  },
+  "binding": {
+    "super_url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-REDO-1.html",
+    "pflab_url": "https://bobphil.github.io/ethics-power-flourishing-lab/ETHICS-PFLAB-2.html"
+  },
+  "student": {
+    "export_name": ""
+  },
+  "audit": {
+    "created_at": "2026-11-07T00:00:00.000Z",
+    "updated_at": "2026-11-07T00:00:00.000Z"
+  },
+  "acceptance_fixture": true,
+  "warning": "Disposable browser acceptance fixture. Re-import your real recovery JSON after the PFLAB unlock/launch test."
+}
