@@ -17,7 +17,8 @@
         "CH05 user-captured live URL: /chapter/what-makes-law-more-than-command/",
         "CH07 user-captured live URL: /chapter/how-do-we-come-to-care/",
         "CH08 user-captured live URL: /chapter/what-do-we-owe-persons-when-sympathy-is-not-enough/",
-        "CH09 user-captured live URL: /chapter/what-happens-to-everyone-affected/"
+        "CH09 user-captured live URL: /chapter/what-happens-to-everyone-affected/",
+        "CH10 user-captured live URL: /chapter/what-is-shaping-the-choice-before-you-choose/"
       ],
       "rule": "Do not extrapolate chapter slugs from numbering or titles. Each chapter URL must be captured individually."
     }
@@ -587,10 +588,10 @@
       "title": "What Is Shaping the Choice Before You Choose?",
       "sequence": 10,
       "pressbooks": {
-        "candidate_slug": null,
-        "candidate_chapter_url": null,
-        "verified_chapter_url": null,
-        "chapter_url_status": "PENDING_INDIVIDUAL_LIVE_CAPTURE"
+        "candidate_slug": "what-is-shaping-the-choice-before-you-choose",
+        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/what-is-shaping-the-choice-before-you-choose/",
+        "verified_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/what-is-shaping-the-choice-before-you-choose/",
+        "chapter_url_status": "VERIFIED_USER_CAPTURE"
       },
       "workbook": {
         "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH10&view=workbook",
@@ -639,8 +640,8 @@
         }
       ],
       "return_to_chapter": {
-        "verified_url": null,
-        "status": "PENDING_LIVE_VERIFICATION",
+        "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/what-is-shaping-the-choice-before-you-choose/",
+        "status": "VERIFIED_USER_CAPTURE",
         "exposure_rule": "Use verified_chapter_url only; do not promote candidate_chapter_url automatically."
       },
       "quiz_id": "QZ-CH10",
