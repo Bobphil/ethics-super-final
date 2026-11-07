@@ -7,11 +7,12 @@
     "live_verification_state": "BLOCKED_BY_PRIVATE_BOOK",
     "rule": "Candidate slugs may be stored, but no chapter URL or section anchor becomes production-active until verified against the live Pressbooks page.",
     "slug_pattern_evidence": {
-      "status": "PARTIALLY_VERIFIED",
-      "evidence": "CH01 live public URL supplied from Pressbooks reader",
-      "observed_pattern": "/chapter/chapter-1/",
-      "candidate_rule_for_remaining": "/chapter/chapter-N/",
-      "rule": "Numbered pattern is a candidate convention only until each chapter URL is observed."
+      "status": "MIXED_PATTERN_CONFIRMED",
+      "evidence": [
+        "CH01 user-captured live URL: /chapter/chapter-1/",
+        "CH02 user-captured live URL: /chapter/socrates-and-plato/"
+      ],
+      "rule": "Do not extrapolate chapter slugs from numbering or titles. Each chapter URL must be captured individually."
     }
   },
   "super": {
@@ -79,10 +80,10 @@
       "title": "Socrates and Plato",
       "sequence": 2,
       "pressbooks": {
-        "candidate_slug": "chapter-2",
-        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/chapter-2/",
-        "verified_chapter_url": null,
-        "chapter_url_status": "PENDING_LIVE_VERIFICATION"
+        "candidate_slug": "socrates-and-plato",
+        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/socrates-and-plato/",
+        "verified_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/socrates-and-plato/",
+        "chapter_url_status": "VERIFIED_USER_CAPTURE"
       },
       "workbook": {
         "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH02&view=workbook",
@@ -121,8 +122,8 @@
         }
       ],
       "return_to_chapter": {
-        "verified_url": null,
-        "status": "PENDING_LIVE_VERIFICATION",
+        "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/socrates-and-plato/",
+        "status": "VERIFIED_USER_CAPTURE",
         "exposure_rule": "Use verified_chapter_url only; do not promote candidate_chapter_url automatically."
       },
       "quiz_id": "QZ-CH02",
@@ -134,10 +135,10 @@
       "title": "Aristotle",
       "sequence": 3,
       "pressbooks": {
-        "candidate_slug": "chapter-3",
-        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/chapter-3/",
+        "candidate_slug": null,
+        "candidate_chapter_url": null,
         "verified_chapter_url": null,
-        "chapter_url_status": "PENDING_LIVE_VERIFICATION"
+        "chapter_url_status": "PENDING_INDIVIDUAL_LIVE_CAPTURE"
       },
       "workbook": {
         "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH03&view=workbook",
@@ -189,10 +190,10 @@
       "title": "What Can Fortune Take From You?",
       "sequence": 4,
       "pressbooks": {
-        "candidate_slug": "chapter-4",
-        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/chapter-4/",
+        "candidate_slug": null,
+        "candidate_chapter_url": null,
         "verified_chapter_url": null,
-        "chapter_url_status": "PENDING_LIVE_VERIFICATION"
+        "chapter_url_status": "PENDING_INDIVIDUAL_LIVE_CAPTURE"
       },
       "workbook": {
         "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH04&view=workbook",
@@ -254,10 +255,10 @@
       "title": "What Makes Law More Than Command?",
       "sequence": 5,
       "pressbooks": {
-        "candidate_slug": "chapter-5",
-        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/chapter-5/",
+        "candidate_slug": null,
+        "candidate_chapter_url": null,
         "verified_chapter_url": null,
-        "chapter_url_status": "PENDING_LIVE_VERIFICATION"
+        "chapter_url_status": "PENDING_INDIVIDUAL_LIVE_CAPTURE"
       },
       "workbook": {
         "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH05&view=workbook",
@@ -319,10 +320,10 @@
       "title": "Why Obey?",
       "sequence": 6,
       "pressbooks": {
-        "candidate_slug": "chapter-6",
-        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/chapter-6/",
+        "candidate_slug": null,
+        "candidate_chapter_url": null,
         "verified_chapter_url": null,
-        "chapter_url_status": "PENDING_LIVE_VERIFICATION"
+        "chapter_url_status": "PENDING_INDIVIDUAL_LIVE_CAPTURE"
       },
       "workbook": {
         "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH06&view=workbook",
@@ -384,10 +385,10 @@
       "title": "How Do We Come to Care?",
       "sequence": 7,
       "pressbooks": {
-        "candidate_slug": "chapter-7",
-        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/chapter-7/",
+        "candidate_slug": null,
+        "candidate_chapter_url": null,
         "verified_chapter_url": null,
-        "chapter_url_status": "PENDING_LIVE_VERIFICATION"
+        "chapter_url_status": "PENDING_INDIVIDUAL_LIVE_CAPTURE"
       },
       "workbook": {
         "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH07&view=workbook",
@@ -449,10 +450,10 @@
       "title": "What Do We Owe Persons When Sympathy Is Not Enough?",
       "sequence": 8,
       "pressbooks": {
-        "candidate_slug": "chapter-8",
-        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/chapter-8/",
+        "candidate_slug": null,
+        "candidate_chapter_url": null,
         "verified_chapter_url": null,
-        "chapter_url_status": "PENDING_LIVE_VERIFICATION"
+        "chapter_url_status": "PENDING_INDIVIDUAL_LIVE_CAPTURE"
       },
       "workbook": {
         "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH08&view=workbook",
@@ -514,10 +515,10 @@
       "title": "What Happens to Everyone Affected?",
       "sequence": 9,
       "pressbooks": {
-        "candidate_slug": "chapter-9",
-        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/chapter-9/",
+        "candidate_slug": null,
+        "candidate_chapter_url": null,
         "verified_chapter_url": null,
-        "chapter_url_status": "PENDING_LIVE_VERIFICATION"
+        "chapter_url_status": "PENDING_INDIVIDUAL_LIVE_CAPTURE"
       },
       "workbook": {
         "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH09&view=workbook",
@@ -579,10 +580,10 @@
       "title": "What Is Shaping the Choice Before You Choose?",
       "sequence": 10,
       "pressbooks": {
-        "candidate_slug": "chapter-10",
-        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/chapter-10/",
+        "candidate_slug": null,
+        "candidate_chapter_url": null,
         "verified_chapter_url": null,
-        "chapter_url_status": "PENDING_LIVE_VERIFICATION"
+        "chapter_url_status": "PENDING_INDIVIDUAL_LIVE_CAPTURE"
       },
       "workbook": {
         "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH10&view=workbook",
@@ -644,10 +645,10 @@
       "title": "Would You Choose the Rules Before Knowing Your Place?",
       "sequence": 11,
       "pressbooks": {
-        "candidate_slug": "chapter-11",
-        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/chapter-11/",
+        "candidate_slug": null,
+        "candidate_chapter_url": null,
         "verified_chapter_url": null,
-        "chapter_url_status": "PENDING_LIVE_VERIFICATION"
+        "chapter_url_status": "PENDING_INDIVIDUAL_LIVE_CAPTURE"
       },
       "workbook": {
         "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH11&view=workbook",
@@ -709,10 +710,10 @@
       "title": "What Are People Actually Able to Do and Be?",
       "sequence": 12,
       "pressbooks": {
-        "candidate_slug": "chapter-12",
-        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/chapter-12/",
+        "candidate_slug": null,
+        "candidate_chapter_url": null,
         "verified_chapter_url": null,
-        "chapter_url_status": "PENDING_LIVE_VERIFICATION"
+        "chapter_url_status": "PENDING_INDIVIDUAL_LIVE_CAPTURE"
       },
       "workbook": {
         "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH12&view=workbook",
