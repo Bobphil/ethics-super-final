@@ -4,6 +4,13 @@ const routing=JSON.parse(fs.readFileSync(new URL("./ETHICS-PB-URL-BIND-1_MANIFES
 const redirect=fs.readFileSync(new URL("./ETHICS-SUPER-FINAL-1.html",import.meta.url),"utf8");
 const checks=[];let pass=true;
 const check=(name,ok)=>{checks.push({name,pass:!!ok});if(!ok)pass=false};
+let jsSyntax=true;
+try{
+  const scripts=[...app.matchAll(/<script>([\\s\\S]*?)<\\/script>/g)].map(m=>m[1]);
+  if(scripts.length!==1) jsSyntax=false;
+  else new Function(scripts[0]);
+}catch(e){jsSyntax=false}
+check("full application JavaScript syntax",jsSyntax);
 check("redo build identity",app.includes('ETHICS-SUPER-REDO-1'));
 check("PROD-3 content lock",app.includes('"content_version":"ETHICS-PB-PROD-3"'));
 check("routing is loaded from binding manifest",app.includes("fetch(ROUTING_PATH")&&app.includes("ETHICS-PB-URL-BIND-1_MANIFEST.json"));

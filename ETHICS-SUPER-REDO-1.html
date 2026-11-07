@@ -112,7 +112,6 @@ function go(ch,v){if(ch)state.active.chapter=ch;if(v)state.active.view=v;setHash
 function renderAll(){updateHeader();renderNav();qsa('.route').forEach(r=>r.classList.toggle('active',r.dataset.route===state.active.view));qsa('.tab-btn').forEach(b=>b.setAttribute('aria-selected',String(b.dataset.view===state.active.view)));if(state.active.view==='workbook')renderWorkbook();if(state.active.view==='tools')renderTools();if(state.active.view==='journey')renderJourney();if(state.active.view==='read')renderRead();if(state.active.view==='data')renderData();if(state.active.view==='pflab')renderPflab()}
 function wire(){qsa('.tab-btn').forEach(b=>b.onclick=()=>go(null,b.dataset.view));window.addEventListener('hashchange',()=>{parseHash();renderAll();save()})}
 async function init(){await Storage.init();await loadRouting();state=normalize(await Storage.get()||blank());parseHash();setHash();wire();renderAll();await save('Ready');window.__ETHICS_SUPER_REDO_1__={manifest:MANIFEST,routing:()=>ROUTING,getState:()=>clone(state),runChecks,go,save}}
-init();state=normalize(await Storage.get()||blank());parseHash();setHash();wire();renderAll();await save('Ready');window.__ETHICS_SUPER_REDO_1__={manifest:MANIFEST,getState:()=>clone(state),runChecks,go,save}}
 init();
 </script>
 </body></html>
