@@ -1,0 +1,802 @@
+{
+  "schema_version": "1.0.0",
+  "build_id": "ETHICS-PB-URL-BIND-1",
+  "pressbooks": {
+    "base_url": "https://pressbooks.pub/ethicalhistory/",
+    "access_state": "PRIVATE_DURING_CAPTURE_BUILD",
+    "live_verification_state": "BLOCKED_BY_PRIVATE_BOOK",
+    "rule": "Candidate slugs may be stored, but no chapter URL or section anchor becomes production-active until verified against the live Pressbooks page."
+  },
+  "super": {
+    "canonical_url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html",
+    "workbook_pattern": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter={CHxx}&view=workbook"
+  },
+  "chapters": [
+    {
+      "id": "CH01",
+      "title": "Before Ethics Had Theories",
+      "sequence": 1,
+      "pressbooks": {
+        "candidate_slug": "before-ethics-had-theories",
+        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/before-ethics-had-theories/",
+        "verified_chapter_url": null,
+        "chapter_url_status": "PENDING_LIVE_VERIFICATION"
+      },
+      "workbook": {
+        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH01&view=workbook",
+        "pressbooks_to_super_status": "ACTIVE_ALREADY_IN_PRESSBOOKS"
+      },
+      "targeted_readings": [
+        {
+          "id": "CH01-R01",
+          "heading": "Ethical attention",
+          "purpose": "Revisit the chapter's account of what ethical attention asks us to notice.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": null,
+          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
+          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+        },
+        {
+          "id": "CH01-R02",
+          "heading": "Bounded judgment",
+          "purpose": "Revisit why incomplete information need not make responsible judgment impossible.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": null,
+          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
+          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+        },
+        {
+          "id": "CH01-R03",
+          "heading": "Tool — Ethical Attention / First Map Audit",
+          "purpose": "Return to the canonical Tool definition used by the workbook.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": null,
+          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
+          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+        }
+      ],
+      "return_to_chapter": {
+        "verified_url": null,
+        "status": "PENDING_LIVE_VERIFICATION",
+        "exposure_rule": "Use verified_chapter_url only; do not promote candidate_chapter_url automatically."
+      },
+      "quiz_id": "QZ-CH01",
+      "journal_id": "JRN-CH01",
+      "pflab_gate": null
+    },
+    {
+      "id": "CH02",
+      "title": "Socrates and Plato",
+      "sequence": 2,
+      "pressbooks": {
+        "candidate_slug": "socrates-and-plato",
+        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/socrates-and-plato/",
+        "verified_chapter_url": null,
+        "chapter_url_status": "PENDING_LIVE_VERIFICATION"
+      },
+      "workbook": {
+        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH02&view=workbook",
+        "pressbooks_to_super_status": "ACTIVE_ALREADY_IN_PRESSBOOKS"
+      },
+      "targeted_readings": [
+        {
+          "id": "CH02-R01",
+          "heading": "What the gods love",
+          "purpose": "Recover the Euthyphro pressure on authority and justification.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": null,
+          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
+          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+        },
+        {
+          "id": "CH02-R02",
+          "heading": "What examination can and cannot establish",
+          "purpose": "Revisit the limits of examination before applying the Direction-of-Justification test.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": null,
+          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
+          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+        },
+        {
+          "id": "CH02-R03",
+          "heading": "Tool — Examination / Reason-Giving Audit",
+          "purpose": "Return to the canonical Tool definition used by the workbook.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": null,
+          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
+          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+        }
+      ],
+      "return_to_chapter": {
+        "verified_url": null,
+        "status": "PENDING_LIVE_VERIFICATION",
+        "exposure_rule": "Use verified_chapter_url only; do not promote candidate_chapter_url automatically."
+      },
+      "quiz_id": "QZ-CH02",
+      "journal_id": "JRN-CH02",
+      "pflab_gate": null
+    },
+    {
+      "id": "CH03",
+      "title": "Aristotle",
+      "sequence": 3,
+      "pressbooks": {
+        "candidate_slug": "aristotle",
+        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/aristotle/",
+        "verified_chapter_url": null,
+        "chapter_url_status": "PENDING_LIVE_VERIFICATION"
+      },
+      "workbook": {
+        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH03&view=workbook",
+        "pressbooks_to_super_status": "ACTIVE_ALREADY_IN_PRESSBOOKS"
+      },
+      "targeted_readings": [
+        {
+          "id": "CH03-R01",
+          "heading": "Character is built over time",
+          "purpose": "Recover the formation/habituation background for the Challenger case.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": null,
+          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
+          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+        },
+        {
+          "id": "CH03-R02",
+          "heading": "*Phronesis*: practical wisdom",
+          "purpose": "Revisit practical wisdom before judging action under institutional pressure.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": null,
+          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
+          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+        },
+        {
+          "id": "CH03-R03",
+          "heading": "Tool — Formation / Practical-Wisdom Audit",
+          "purpose": "Return to the canonical Tool definition used by the workbook.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": null,
+          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
+          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+        }
+      ],
+      "return_to_chapter": {
+        "verified_url": null,
+        "status": "PENDING_LIVE_VERIFICATION",
+        "exposure_rule": "Use verified_chapter_url only; do not promote candidate_chapter_url automatically."
+      },
+      "quiz_id": "QZ-CH03",
+      "journal_id": "JRN-CH03",
+      "pflab_gate": null
+    },
+    {
+      "id": "CH04",
+      "title": "What Can Fortune Take From You?",
+      "sequence": 4,
+      "pressbooks": {
+        "candidate_slug": "what-can-fortune-take-from-you",
+        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/what-can-fortune-take-from-you/",
+        "verified_chapter_url": null,
+        "chapter_url_status": "PENDING_LIVE_VERIFICATION"
+      },
+      "workbook": {
+        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH04&view=workbook",
+        "pressbooks_to_super_status": "ACTIVE_ALREADY_IN_PRESSBOOKS"
+      },
+      "targeted_readings": [
+        {
+          "id": "CH04-R01",
+          "heading": "Stoicism: impression is not yet assent",
+          "purpose": "Recover the Stoic distinction between what happens and the response we authorize.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": null,
+          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
+          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+        },
+        {
+          "id": "CH04-R02",
+          "heading": "What is “up to us”?",
+          "purpose": "Revisit the control boundary before working the Hanna case.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": null,
+          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
+          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+        },
+        {
+          "id": "CH04-R03",
+          "heading": "Cosmopolitanism: who belongs inside moral concern?",
+          "purpose": "Revisit moral range so control is not confused with importance.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": null,
+          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
+          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+        },
+        {
+          "id": "CH04-R04",
+          "heading": "Tool — Control / Desire / Moral-Range Audit",
+          "purpose": "Return to the canonical Tool definition used by the workbook.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": null,
+          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
+          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+        }
+      ],
+      "return_to_chapter": {
+        "verified_url": null,
+        "status": "PENDING_LIVE_VERIFICATION",
+        "exposure_rule": "Use verified_chapter_url only; do not promote candidate_chapter_url automatically."
+      },
+      "quiz_id": "QZ-CH04",
+      "journal_id": "JRN-CH04",
+      "pflab_gate": null
+    },
+    {
+      "id": "CH05",
+      "title": "What Makes Law More Than Command?",
+      "sequence": 5,
+      "pressbooks": {
+        "candidate_slug": "what-makes-law-more-than-command",
+        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/what-makes-law-more-than-command/",
+        "verified_chapter_url": null,
+        "chapter_url_status": "PENDING_LIVE_VERIFICATION"
+      },
+      "workbook": {
+        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH05&view=workbook",
+        "pressbooks_to_super_status": "ACTIVE_ALREADY_IN_PRESSBOOKS"
+      },
+      "targeted_readings": [
+        {
+          "id": "CH05-R01",
+          "heading": "Aquinas: law as more than command",
+          "purpose": "Recover the account of law, reason, authority, and common good.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": null,
+          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
+          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+        },
+        {
+          "id": "CH05-R02",
+          "heading": "Common good is not a magic phrase",
+          "purpose": "Revisit the burden of showing that a rule genuinely serves a common good.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": null,
+          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
+          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+        },
+        {
+          "id": "CH05-R03",
+          "heading": "Unjust law and the limits of obedience",
+          "purpose": "Revisit why moral criticism of a rule does not settle every response to it.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": null,
+          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
+          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+        },
+        {
+          "id": "CH05-R04",
+          "heading": "Tool — Moral Authority / Common-Good Audit",
+          "purpose": "Return to the canonical Tool definition used by the workbook.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": null,
+          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
+          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+        }
+      ],
+      "return_to_chapter": {
+        "verified_url": null,
+        "status": "PENDING_LIVE_VERIFICATION",
+        "exposure_rule": "Use verified_chapter_url only; do not promote candidate_chapter_url automatically."
+      },
+      "quiz_id": "QZ-CH05",
+      "journal_id": "JRN-CH05",
+      "pflab_gate": null
+    },
+    {
+      "id": "CH06",
+      "title": "Why Obey?",
+      "sequence": 6,
+      "pressbooks": {
+        "candidate_slug": "why-obey",
+        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/why-obey/",
+        "verified_chapter_url": null,
+        "chapter_url_status": "PENDING_LIVE_VERIFICATION"
+      },
+      "workbook": {
+        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH06&view=workbook",
+        "pressbooks_to_super_status": "ACTIVE_ALREADY_IN_PRESSBOOKS"
+      },
+      "targeted_readings": [
+        {
+          "id": "CH06-R01",
+          "heading": "Hobbes: security before stable cooperation",
+          "purpose": "Recover the coordination/security problem.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": null,
+          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
+          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+        },
+        {
+          "id": "CH06-R02",
+          "heading": "Locke: who protects us from the protector?",
+          "purpose": "Revisit limits on authority and residual standing.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": null,
+          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
+          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+        },
+        {
+          "id": "CH06-R03",
+          "heading": "Rousseau: can obedience become self-rule?",
+          "purpose": "Revisit membership, authorship, and political standing.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": null,
+          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
+          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+        },
+        {
+          "id": "CH06-R04",
+          "heading": "Tool — Legitimacy / Standing Audit",
+          "purpose": "Return to the canonical Tool definition used by the workbook.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": null,
+          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
+          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+        }
+      ],
+      "return_to_chapter": {
+        "verified_url": null,
+        "status": "PENDING_LIVE_VERIFICATION",
+        "exposure_rule": "Use verified_chapter_url only; do not promote candidate_chapter_url automatically."
+      },
+      "quiz_id": "QZ-CH06",
+      "journal_id": "JRN-CH06",
+      "pflab_gate": null
+    },
+    {
+      "id": "CH07",
+      "title": "How Do We Come to Care?",
+      "sequence": 7,
+      "pressbooks": {
+        "candidate_slug": "how-do-we-come-to-care",
+        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/how-do-we-come-to-care/",
+        "verified_chapter_url": null,
+        "chapter_url_status": "PENDING_LIVE_VERIFICATION"
+      },
+      "workbook": {
+        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH07&view=workbook",
+        "pressbooks_to_super_status": "ACTIVE_ALREADY_IN_PRESSBOOKS"
+      },
+      "targeted_readings": [
+        {
+          "id": "CH07-R01",
+          "heading": "Hume: reason can inform action without generating every end",
+          "purpose": "Recover Hume's relation between reason, motivation, and moral response.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": null,
+          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
+          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+        },
+        {
+          "id": "CH07-R02",
+          "heading": "Smith: sympathy as imaginative movement",
+          "purpose": "Revisit perspective-taking without treating sympathy as direct access.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": null,
+          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
+          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+        },
+        {
+          "id": "CH07-R03",
+          "heading": "The impartial spectator is not a view from nowhere",
+          "purpose": "Recover the standpoint correction that supports the workbook's visibility audit.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": null,
+          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
+          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+        },
+        {
+          "id": "CH07-R04",
+          "heading": "Tool — Perspective / Moral-Visibility Audit",
+          "purpose": "Return to the canonical Tool definition used by the workbook.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": null,
+          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
+          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+        }
+      ],
+      "return_to_chapter": {
+        "verified_url": null,
+        "status": "PENDING_LIVE_VERIFICATION",
+        "exposure_rule": "Use verified_chapter_url only; do not promote candidate_chapter_url automatically."
+      },
+      "quiz_id": "QZ-CH07",
+      "journal_id": "JRN-CH07",
+      "pflab_gate": null
+    },
+    {
+      "id": "CH08",
+      "title": "What Do We Owe Persons When Sympathy Is Not Enough?",
+      "sequence": 8,
+      "pressbooks": {
+        "candidate_slug": "what-do-we-owe-persons-when-sympathy-is-not-enough",
+        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/what-do-we-owe-persons-when-sympathy-is-not-enough/",
+        "verified_chapter_url": null,
+        "chapter_url_status": "PENDING_LIVE_VERIFICATION"
+      },
+      "workbook": {
+        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH08&view=workbook",
+        "pressbooks_to_super_status": "ACTIVE_ALREADY_IN_PRESSBOOKS"
+      },
+      "targeted_readings": [
+        {
+          "id": "CH08-R01",
+          "heading": "Maxims and the universal-law test",
+          "purpose": "Revisit the universalization pressure on the principle of action.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": null,
+          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
+          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+        },
+        {
+          "id": "CH08-R02",
+          "heading": "Humanity as an end",
+          "purpose": "Recover the standing of persons as agents rather than merely objects of management.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": null,
+          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
+          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+        },
+        {
+          "id": "CH08-R03",
+          "heading": "Autonomy does not mean “whatever I choose”",
+          "purpose": "Revisit autonomy before the Leila information-control case.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": null,
+          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
+          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+        },
+        {
+          "id": "CH08-R04",
+          "heading": "Tool — Respect / Duty / Autonomy Audit",
+          "purpose": "Return to the canonical Tool definition used by the workbook.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": null,
+          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
+          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+        }
+      ],
+      "return_to_chapter": {
+        "verified_url": null,
+        "status": "PENDING_LIVE_VERIFICATION",
+        "exposure_rule": "Use verified_chapter_url only; do not promote candidate_chapter_url automatically."
+      },
+      "quiz_id": "QZ-CH08",
+      "journal_id": "JRN-CH08",
+      "pflab_gate": null
+    },
+    {
+      "id": "CH09",
+      "title": "What Happens to Everyone Affected?",
+      "sequence": 9,
+      "pressbooks": {
+        "candidate_slug": "what-happens-to-everyone-affected",
+        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/what-happens-to-everyone-affected/",
+        "verified_chapter_url": null,
+        "chapter_url_status": "PENDING_LIVE_VERIFICATION"
+      },
+      "workbook": {
+        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH09&view=workbook",
+        "pressbooks_to_super_status": "ACTIVE_ALREADY_IN_PRESSBOOKS"
+      },
+      "targeted_readings": [
+        {
+          "id": "CH09-R01",
+          "heading": "Bentham: making pleasure, pain, and public consequences inspectable",
+          "purpose": "Recover the aggregation and public-consequence frame.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": null,
+          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
+          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+        },
+        {
+          "id": "CH09-R02",
+          "heading": "Forecasts are maps too",
+          "purpose": "Revisit uncertainty and the limits of predicted outcomes.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": null,
+          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
+          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+        },
+        {
+          "id": "CH09-R03",
+          "heading": "Liberty and the harm principle",
+          "purpose": "Recover the liberty/coercion boundary before the workbook judgment.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": null,
+          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
+          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+        },
+        {
+          "id": "CH09-R04",
+          "heading": "Tool — Consequence / Welfare / Harm Audit",
+          "purpose": "Return to the canonical Tool definition used by the workbook.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": null,
+          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
+          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+        }
+      ],
+      "return_to_chapter": {
+        "verified_url": null,
+        "status": "PENDING_LIVE_VERIFICATION",
+        "exposure_rule": "Use verified_chapter_url only; do not promote candidate_chapter_url automatically."
+      },
+      "quiz_id": "QZ-CH09",
+      "journal_id": "JRN-CH09",
+      "pflab_gate": null
+    },
+    {
+      "id": "CH10",
+      "title": "What Is Shaping the Choice Before You Choose?",
+      "sequence": 10,
+      "pressbooks": {
+        "candidate_slug": "what-is-shaping-the-choice-before-you-choose",
+        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/what-is-shaping-the-choice-before-you-choose/",
+        "verified_chapter_url": null,
+        "chapter_url_status": "PENDING_LIVE_VERIFICATION"
+      },
+      "workbook": {
+        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH10&view=workbook",
+        "pressbooks_to_super_status": "ACTIVE_ALREADY_IN_PRESSBOOKS"
+      },
+      "targeted_readings": [
+        {
+          "id": "CH10-R01",
+          "heading": "Formal freedom and material dependence",
+          "purpose": "Recover the distinction between formal choice and material dependence.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": null,
+          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
+          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+        },
+        {
+          "id": "CH10-R02",
+          "heading": "Origin is not verdict",
+          "purpose": "Revisit the genealogy firewall: explaining origins does not by itself settle validity.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": null,
+          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
+          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+        },
+        {
+          "id": "CH10-R03",
+          "heading": "Ressentiment",
+          "purpose": "Revisit value-formation diagnosis without collapsing diagnosis into verdict.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": null,
+          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
+          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+        },
+        {
+          "id": "CH10-R04",
+          "heading": "Tool — Background Power / Genealogy Audit",
+          "purpose": "Return to the canonical Tool definition used by the workbook.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": null,
+          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
+          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+        }
+      ],
+      "return_to_chapter": {
+        "verified_url": null,
+        "status": "PENDING_LIVE_VERIFICATION",
+        "exposure_rule": "Use verified_chapter_url only; do not promote candidate_chapter_url automatically."
+      },
+      "quiz_id": "QZ-CH10",
+      "journal_id": "JRN-CH10",
+      "pflab_gate": null
+    },
+    {
+      "id": "CH11",
+      "title": "Would You Choose the Rules Before Knowing Your Place?",
+      "sequence": 11,
+      "pressbooks": {
+        "candidate_slug": "would-you-choose-the-rules-before-knowing-your-place",
+        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/would-you-choose-the-rules-before-knowing-your-place/",
+        "verified_chapter_url": null,
+        "chapter_url_status": "PENDING_LIVE_VERIFICATION"
+      },
+      "workbook": {
+        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH11&view=workbook",
+        "pressbooks_to_super_status": "ACTIVE_ALREADY_IN_PRESSBOOKS"
+      },
+      "targeted_readings": [
+        {
+          "id": "CH11-R01",
+          "heading": "The original position",
+          "purpose": "Recover the device of representation used to test fair terms.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": null,
+          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
+          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+        },
+        {
+          "id": "CH11-R02",
+          "heading": "Fair equality of opportunity",
+          "purpose": "Revisit the difference between formal access and meaningful opportunity.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": null,
+          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
+          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+        },
+        {
+          "id": "CH11-R03",
+          "heading": "The difference principle",
+          "purpose": "Recover the distributional test without treating it as a simple maximize-the-worst-off rule.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": null,
+          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
+          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+        },
+        {
+          "id": "CH11-R04",
+          "heading": "Tool — Fair-Structure / Veil-of-Ignorance Audit",
+          "purpose": "Return to the canonical Tool definition used by the workbook.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": null,
+          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
+          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+        }
+      ],
+      "return_to_chapter": {
+        "verified_url": null,
+        "status": "PENDING_LIVE_VERIFICATION",
+        "exposure_rule": "Use verified_chapter_url only; do not promote candidate_chapter_url automatically."
+      },
+      "quiz_id": "QZ-CH11",
+      "journal_id": "JRN-CH11",
+      "pflab_gate": null
+    },
+    {
+      "id": "CH12",
+      "title": "What Are People Actually Able to Do and Be?",
+      "sequence": 12,
+      "pressbooks": {
+        "candidate_slug": "what-are-people-actually-able-to-do-and-be",
+        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/what-are-people-actually-able-to-do-and-be/",
+        "verified_chapter_url": null,
+        "chapter_url_status": "PENDING_LIVE_VERIFICATION"
+      },
+      "workbook": {
+        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH12&view=workbook",
+        "pressbooks_to_super_status": "ACTIVE_ALREADY_IN_PRESSBOOKS"
+      },
+      "targeted_readings": [
+        {
+          "id": "CH12-R01",
+          "heading": "Dependency is not an exception to human life",
+          "purpose": "Recover the chapter's starting point about dependency and agency.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": null,
+          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
+          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+        },
+        {
+          "id": "CH12-R02",
+          "heading": "Sen: resources are not the same as freedom",
+          "purpose": "Revisit conversion from resources to effective capability.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": null,
+          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
+          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+        },
+        {
+          "id": "CH12-R03",
+          "heading": "Capability is not care",
+          "purpose": "Recover the distinction between care relations and capability evaluation.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": null,
+          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
+          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+        },
+        {
+          "id": "CH12-R04",
+          "heading": "Tool — Dependency / Effective-Capability Audit",
+          "purpose": "Return to the canonical Tool definition used by the workbook.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": null,
+          "status": "PENDING_LIVE_ANCHOR_CAPTURE",
+          "exposure_rule": "Do not render as an active targeted-reading link in SUPER until verified_url is non-null."
+        }
+      ],
+      "return_to_chapter": {
+        "verified_url": null,
+        "status": "PENDING_LIVE_VERIFICATION",
+        "exposure_rule": "Use verified_chapter_url only; do not promote candidate_chapter_url automatically."
+      },
+      "quiz_id": "QZ-CH12",
+      "journal_id": "JRN-CH12",
+      "pflab_gate": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH12&view=pflab"
+    }
+  ],
+  "transition_a": {
+    "title": "Transition A — When Authority Becomes Contestable",
+    "candidate_slug": "when-authority-becomes-contestable",
+    "candidate_url": "https://pressbooks.pub/ethicalhistory/chapter/when-authority-becomes-contestable/",
+    "verified_url": null,
+    "status": "PENDING_LIVE_VERIFICATION",
+    "targeted_readings": [
+      "Machiavelli: what if political effectiveness has its own logic?",
+      "Reformation: what happens when religious authorities conflict?",
+      "Empire and the problem of the universal",
+      "Grotius: natural law in a world of states and religious division"
+    ]
+  },
+  "capture_contract": {
+    "method": [
+      "Open the live Pressbooks chapter while authenticated or after publication.",
+      "Capture the canonical chapter URL shown by Pressbooks; do not infer it from the title.",
+      "For every targeted heading, inspect the rendered heading element and capture its actual id/fragment.",
+      "Store the exact verified URL and fragment in this manifest.",
+      "Run ETHICS-PB-URL-BIND-1_REGRESSION.mjs.",
+      "Only after regression PASS may SUPER render the targeted-reading link as active."
+    ],
+    "forbidden": [
+      "Do not infer heading fragments from Markdown heading text.",
+      "Do not treat candidate chapter slugs as verified live URLs.",
+      "Do not bind SPC/HCC Canvas quiz or journal URLs here.",
+      "Do not let a failed section anchor fall through silently to an unrelated page."
+    ]
+  },
+  "round_trip_contract": [
+    "Pressbooks chapter → exact SUPER workbook deep link",
+    "SUPER workbook → verified targeted Pressbooks section",
+    "SUPER workbook → verified full Pressbooks chapter",
+    "CH12 SUPER → governed PFLAB gate",
+    "Canvas remains owner of Quiz and Personal Ethics Journal routing"
+  ]
+}
