@@ -13,7 +13,9 @@
         "CH02 user-captured live URL: /chapter/socrates-and-plato/",
         "CH03 user-captured live URL: /chapter/aristotle/",
         "CH04 user-captured live URL: /chapter/what-can-fortune-take-from-you/",
-        "CH06 user-captured live URL: /chapter/why-obey/"
+        "CH06 user-captured live URL: /chapter/why-obey/",
+        "CH05 user-captured live URL: /chapter/what-makes-law-more-than-command/",
+        "CH07 user-captured live URL: /chapter/how-do-we-come-to-care/"
       ],
       "rule": "Do not extrapolate chapter slugs from numbering or titles. Each chapter URL must be captured individually."
     }
@@ -258,10 +260,10 @@
       "title": "What Makes Law More Than Command?",
       "sequence": 5,
       "pressbooks": {
-        "candidate_slug": null,
-        "candidate_chapter_url": null,
-        "verified_chapter_url": null,
-        "chapter_url_status": "PENDING_INDIVIDUAL_LIVE_CAPTURE"
+        "candidate_slug": "what-makes-law-more-than-command",
+        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/what-makes-law-more-than-command/",
+        "verified_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/what-makes-law-more-than-command/",
+        "chapter_url_status": "VERIFIED_USER_CAPTURE"
       },
       "workbook": {
         "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH05&view=workbook",
@@ -310,8 +312,8 @@
         }
       ],
       "return_to_chapter": {
-        "verified_url": null,
-        "status": "PENDING_LIVE_VERIFICATION",
+        "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/what-makes-law-more-than-command/",
+        "status": "VERIFIED_USER_CAPTURE",
         "exposure_rule": "Use verified_chapter_url only; do not promote candidate_chapter_url automatically."
       },
       "quiz_id": "QZ-CH05",
@@ -388,10 +390,10 @@
       "title": "How Do We Come to Care?",
       "sequence": 7,
       "pressbooks": {
-        "candidate_slug": null,
-        "candidate_chapter_url": null,
-        "verified_chapter_url": null,
-        "chapter_url_status": "PENDING_INDIVIDUAL_LIVE_CAPTURE"
+        "candidate_slug": "how-do-we-come-to-care",
+        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/how-do-we-come-to-care/",
+        "verified_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/how-do-we-come-to-care/",
+        "chapter_url_status": "VERIFIED_USER_CAPTURE"
       },
       "workbook": {
         "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH07&view=workbook",
@@ -440,8 +442,8 @@
         }
       ],
       "return_to_chapter": {
-        "verified_url": null,
-        "status": "PENDING_LIVE_VERIFICATION",
+        "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/how-do-we-come-to-care/",
+        "status": "VERIFIED_USER_CAPTURE",
         "exposure_rule": "Use verified_chapter_url only; do not promote candidate_chapter_url automatically."
       },
       "quiz_id": "QZ-CH07",
