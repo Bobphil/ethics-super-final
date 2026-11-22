@@ -24,21 +24,21 @@
       ],
       "rule": "Do not extrapolate chapter slugs from numbering or titles. Each chapter URL must be captured individually."
     },
-    "chapter_capture_status": "COMPLETE_12_OF_12",
+    "chapter_capture_status": "COMPLETE_14_OF_14",
     "section_anchor_policy": {
       "status": "ANCHORS_NOT_REQUIRED",
       "evidence": "User verified in Chapter 1 that the browser URL does not change among targeted sections.",
       "rule": "Targeted reading is implemented as verified chapter URL + exact section heading label. Section fragment is optional and may remain null.",
       "regression_rule": "A targeted reading passes if its chapter URL is verified and its heading label is present; direct fragment URLs are not required."
     },
-    "targeted_reading_capture_status": "COMPLETE_45_OF_45_BY_CHAPTER_ROUTE_PLUS_LABEL"
+    "targeted_reading_capture_status": "COMPLETE_53_OF_53_BY_CHAPTER_ROUTE_PLUS_LABEL"
   },
   "super": {
-    "canonical_url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-REDO-1.html",
-    "workbook_pattern": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-REDO-1.html#chapter={CHxx}&view=workbook",
+    "canonical_url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-14-1.html",
+    "workbook_pattern": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-14-1.html#chapter={CHxx}&view=workbook",
     "compatibility_redirect": {
       "from": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html",
-      "to": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-REDO-1.html",
+      "to": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-14-1.html",
       "preserves_hash": true,
       "purpose": "Existing Pressbooks workbook links continue to resolve without editing the private book."
     }
@@ -46,7 +46,7 @@
   "chapters": [
     {
       "id": "CH01",
-      "title": "Before Ethics Had Theories",
+      "title": "What Do You Actually Know?",
       "sequence": 1,
       "pressbooks": {
         "candidate_slug": "chapter-1",
@@ -55,7 +55,7 @@
         "chapter_url_status": "VERIFIED_USER_CAPTURE"
       },
       "workbook": {
-        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-REDO-1.html#chapter=CH01&view=workbook",
+        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-14-1.html#chapter=CH01&view=workbook",
         "pressbooks_to_super_status": "COMPATIBLE_VIA_FINAL_1_REDIRECT_AND_REDO_CANONICAL"
       },
       "targeted_readings": [
@@ -113,7 +113,7 @@
         "chapter_url_status": "VERIFIED_USER_CAPTURE"
       },
       "workbook": {
-        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-REDO-1.html#chapter=CH02&view=workbook",
+        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-14-1.html#chapter=CH02&view=workbook",
         "pressbooks_to_super_status": "COMPATIBLE_VIA_FINAL_1_REDIRECT_AND_REDO_CANONICAL"
       },
       "targeted_readings": [
@@ -171,7 +171,7 @@
         "chapter_url_status": "VERIFIED_USER_CAPTURE"
       },
       "workbook": {
-        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-REDO-1.html#chapter=CH03&view=workbook",
+        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-14-1.html#chapter=CH03&view=workbook",
         "pressbooks_to_super_status": "COMPATIBLE_VIA_FINAL_1_REDIRECT_AND_REDO_CANONICAL"
       },
       "targeted_readings": [
@@ -229,7 +229,7 @@
         "chapter_url_status": "VERIFIED_USER_CAPTURE"
       },
       "workbook": {
-        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-REDO-1.html#chapter=CH04&view=workbook",
+        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-14-1.html#chapter=CH04&view=workbook",
         "pressbooks_to_super_status": "COMPATIBLE_VIA_FINAL_1_REDIRECT_AND_REDO_CANONICAL"
       },
       "targeted_readings": [
@@ -298,7 +298,7 @@
         "chapter_url_status": "VERIFIED_USER_CAPTURE"
       },
       "workbook": {
-        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-REDO-1.html#chapter=CH05&view=workbook",
+        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-14-1.html#chapter=CH05&view=workbook",
         "pressbooks_to_super_status": "COMPATIBLE_VIA_FINAL_1_REDIRECT_AND_REDO_CANONICAL"
       },
       "targeted_readings": [
@@ -367,7 +367,7 @@
         "chapter_url_status": "VERIFIED_USER_CAPTURE"
       },
       "workbook": {
-        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-REDO-1.html#chapter=CH06&view=workbook",
+        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-14-1.html#chapter=CH06&view=workbook",
         "pressbooks_to_super_status": "COMPATIBLE_VIA_FINAL_1_REDIRECT_AND_REDO_CANONICAL"
       },
       "targeted_readings": [
@@ -436,7 +436,7 @@
         "chapter_url_status": "VERIFIED_USER_CAPTURE"
       },
       "workbook": {
-        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-REDO-1.html#chapter=CH07&view=workbook",
+        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-14-1.html#chapter=CH07&view=workbook",
         "pressbooks_to_super_status": "COMPATIBLE_VIA_FINAL_1_REDIRECT_AND_REDO_CANONICAL"
       },
       "targeted_readings": [
@@ -505,7 +505,7 @@
         "chapter_url_status": "VERIFIED_USER_CAPTURE"
       },
       "workbook": {
-        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-REDO-1.html#chapter=CH08&view=workbook",
+        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-14-1.html#chapter=CH08&view=workbook",
         "pressbooks_to_super_status": "COMPATIBLE_VIA_FINAL_1_REDIRECT_AND_REDO_CANONICAL"
       },
       "targeted_readings": [
@@ -574,7 +574,7 @@
         "chapter_url_status": "VERIFIED_USER_CAPTURE"
       },
       "workbook": {
-        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-REDO-1.html#chapter=CH09&view=workbook",
+        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-14-1.html#chapter=CH09&view=workbook",
         "pressbooks_to_super_status": "COMPATIBLE_VIA_FINAL_1_REDIRECT_AND_REDO_CANONICAL"
       },
       "targeted_readings": [
@@ -643,7 +643,7 @@
         "chapter_url_status": "VERIFIED_USER_CAPTURE"
       },
       "workbook": {
-        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-REDO-1.html#chapter=CH10&view=workbook",
+        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-14-1.html#chapter=CH10&view=workbook",
         "pressbooks_to_super_status": "COMPATIBLE_VIA_FINAL_1_REDIRECT_AND_REDO_CANONICAL"
       },
       "targeted_readings": [
@@ -712,7 +712,7 @@
         "chapter_url_status": "VERIFIED_USER_CAPTURE"
       },
       "workbook": {
-        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-REDO-1.html#chapter=CH11&view=workbook",
+        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-14-1.html#chapter=CH11&view=workbook",
         "pressbooks_to_super_status": "COMPATIBLE_VIA_FINAL_1_REDIRECT_AND_REDO_CANONICAL"
       },
       "targeted_readings": [
@@ -781,7 +781,7 @@
         "chapter_url_status": "VERIFIED_USER_CAPTURE"
       },
       "workbook": {
-        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-REDO-1.html#chapter=CH12&view=workbook",
+        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-14-1.html#chapter=CH12&view=workbook",
         "pressbooks_to_super_status": "COMPATIBLE_VIA_FINAL_1_REDIRECT_AND_REDO_CANONICAL"
       },
       "targeted_readings": [
@@ -837,15 +837,153 @@
       },
       "quiz_id": "QZ-CH12",
       "journal_id": "JRN-CH12",
-      "pflab_gate": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH12&view=pflab"
+      "pflab_gate": null
+    },
+    {
+      "id": "CH13",
+      "title": "When Is a Choice Still Yours?",
+      "sequence": 13,
+      "pressbooks": {
+        "candidate_slug": "when-is-a-choice-still-yours",
+        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/when-is-a-choice-still-yours/",
+        "verified_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/when-is-a-choice-still-yours/",
+        "chapter_url_status": "VERIFIED_LIVE_CAPTURE_2026-11-14"
+      },
+      "workbook": {
+        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-14-1.html#chapter=CH13&view=workbook",
+        "pressbooks_to_super_status": "COMPATIBLE_VIA_FINAL_1_REDIRECT_AND_REDO_CANONICAL"
+      },
+      "targeted_readings": [
+        {
+          "id": "CH13-R01",
+          "heading": "Phineas Gage and the story about Phineas Gage",
+          "purpose": "Separate what the record shows from what the retold story added.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/when-is-a-choice-still-yours/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
+        },
+        {
+          "id": "CH13-R02",
+          "heading": "Strawson: responsibility as a practice",
+          "purpose": "Recover the distinction between excuses and exemptions.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/when-is-a-choice-still-yours/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
+        },
+        {
+          "id": "CH13-R03",
+          "heading": "Looking forward, not only back",
+          "purpose": "Recover what responsibility requires when blame is reduced.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/when-is-a-choice-still-yours/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
+        },
+        {
+          "id": "CH13-R04",
+          "heading": "Tool — Agency-Conditions / Responsibility Audit",
+          "purpose": "Return to the Tool's questions and its claim ceiling.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/when-is-a-choice-still-yours/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
+        }
+      ],
+      "return_to_chapter": {
+        "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/when-is-a-choice-still-yours/",
+        "status": "VERIFIED_LIVE_CAPTURE_2026-11-14",
+        "exposure_rule": "Use verified_chapter_url only; do not promote candidate_chapter_url automatically."
+      },
+      "quiz_id": "QZ-CH13",
+      "journal_id": "JRN-CH13",
+      "pflab_gate": null
+    },
+    {
+      "id": "CH14",
+      "title": "Where Does a Mind Begin, and Who Decides?",
+      "sequence": 14,
+      "pressbooks": {
+        "candidate_slug": "where-does-a-mind-begin-and-who-decides",
+        "candidate_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/where-does-a-mind-begin-and-who-decides/",
+        "verified_chapter_url": "https://pressbooks.pub/ethicalhistory/chapter/where-does-a-mind-begin-and-who-decides/",
+        "chapter_url_status": "VERIFIED_LIVE_CAPTURE_2026-11-14"
+      },
+      "workbook": {
+        "url": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-14-1.html#chapter=CH14&view=workbook",
+        "pressbooks_to_super_status": "COMPATIBLE_VIA_FINAL_1_REDIRECT_AND_REDO_CANONICAL"
+      },
+      "targeted_readings": [
+        {
+          "id": "CH14-R01",
+          "heading": "When a tool stops extending you: enclosure",
+          "purpose": "Recover the difference between extending judgment and replacing it.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/where-does-a-mind-begin-and-who-decides/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
+        },
+        {
+          "id": "CH14-R02",
+          "heading": "When order hides its costs: Dark Coherence",
+          "purpose": "Recover the silence audit and the Firewalls that keep Dark Coherence honest.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/where-does-a-mind-begin-and-who-decides/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
+        },
+        {
+          "id": "CH14-R03",
+          "heading": "Acting together without agreeing",
+          "purpose": "Recover cooperation without convergence through the Asilomar and Cambridge cases.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/where-does-a-mind-begin-and-who-decides/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
+        },
+        {
+          "id": "CH14-R04",
+          "heading": "Tool — Moral-Circle / Enclosure / Shared-Task Audit",
+          "purpose": "Return to the Tool's questions and its claim ceiling.",
+          "candidate_anchor": null,
+          "verified_anchor": null,
+          "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/where-does-a-mind-begin-and-who-decides/",
+          "status": "VERIFIED_CHAPTER_ROUTE_SECTION_LABEL",
+          "exposure_rule": "Render as an active link to the verified chapter URL and display the target heading label beside/within the link. Do not claim direct section anchoring.",
+          "navigation_mode": "CHAPTER_URL_PLUS_SECTION_LABEL"
+        }
+      ],
+      "return_to_chapter": {
+        "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/where-does-a-mind-begin-and-who-decides/",
+        "status": "VERIFIED_LIVE_CAPTURE_2026-11-14",
+        "exposure_rule": "Use verified_chapter_url only; do not promote candidate_chapter_url automatically."
+      },
+      "quiz_id": "QZ-CH14",
+      "journal_id": "JRN-CH14",
+      "pflab_gate": "https://bobphil.github.io/ethics-super-final/ETHICS-SUPER-FINAL-1.html#chapter=CH14&view=pflab"
     }
   ],
   "transition_a": {
     "title": "Transition A — When Authority Becomes Contestable",
-    "candidate_slug": "when-authority-becomes-contestable",
-    "candidate_url": "https://pressbooks.pub/ethicalhistory/chapter/when-authority-becomes-contestable/",
-    "verified_url": null,
-    "status": "PENDING_LIVE_VERIFICATION",
+    "candidate_slug": "transition-a-when-authority-becomes-contestable",
+    "candidate_url": "https://pressbooks.pub/ethicalhistory/chapter/transition-a-when-authority-becomes-contestable/",
+    "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/transition-a-when-authority-becomes-contestable/",
+    "status": "VERIFIED_LIVE_CAPTURE_2026-11-14",
     "targeted_readings": [
       "Machiavelli: what if political effectiveness has its own logic?",
       "Reformation: what happens when religious authorities conflict?",
@@ -873,7 +1011,21 @@
     "Pressbooks chapter → exact SUPER workbook deep link",
     "SUPER workbook → verified Pressbooks chapter with exact targeted-reading section label",
     "SUPER workbook → verified full Pressbooks chapter",
-    "CH12 SUPER → governed PFLAB gate",
+    "CH14 SUPER → governed PFLAB gate",
     "Canvas remains owner of Quiz and Personal Ethics Journal routing"
-  ]
+  ],
+  "targeted_reading_total": 53,
+  "transition_b": {
+    "title": "Transition B — When Excluded People Claim Standing",
+    "verified_url": "https://pressbooks.pub/ethicalhistory/chapter/transition-b-when-excluded-people-claim-standing/",
+    "status": "VERIFIED_LIVE_CAPTURE_2026-11-14",
+    "workbook": null,
+    "targeted_readings": [
+      "Mary Wollstonecraft: is it nature, or is it formation?",
+      "Harriet Taylor Mill: who decides someone’s proper sphere?",
+      "Frederick Douglass: whose Fourth of July?",
+      "W. E. B. Du Bois: seeing from two places at once"
+    ]
+  },
+  "revision_note": "2026-11-14: Part IV added (CH13, CH14); PFLAB gate moved from CH12 to CH14 (14/14 READY); CH01 retitled; Transition A URL verified; Transition B recorded. Legacy CH12 pflab links still resolve because view=pflab is chapter-independent."
 }
